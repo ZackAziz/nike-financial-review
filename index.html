@@ -5418,5 +5418,468 @@ const calc = (() => {
  sync();render();if(sharedError)notice(sharedError);
 })();
 
+// Approved glossary. Short tips appear in help bubbles; notes appear only in the full glossary.
+const GLOSSARY = Object.freeze({
+  "10k": {
+    "term": "10-K",
+    "tip": "A company’s annual report, containing audited financial statements, information about the business and its risks.",
+    "note": "Filed with the U.S. Securities and Exchange Commission. Historical inputs link to the relevant filing, fiscal period and page."
+  },
+  "10q": {
+    "term": "10-Q",
+    "tip": "A company’s quarterly report, updating its financial results and business risks between annual reports.",
+    "note": "Filed with the U.S. Securities and Exchange Commission. Quarterly financial statements are generally unaudited."
+  },
+  "ccc": {
+    "term": "Adjusted cash conversion cycle (Adjusted CCC)",
+    "tip": "Roughly how long cash stays tied up between buying products and collecting sales, after allowing for supplier-payment timing. Lower generally frees cash.",
+    "note": "Calculated as adjusted receivable days plus inventory days minus payable days. It uses ending balances, and its collections component is a public-data approximation."
+  },
+  "quick": {
+    "term": "Adjusted quick ratio",
+    "tip": "Cash, short-term investments and adjusted receivables compared with bills due within a year. Above 1.0x means these balances exceed those bills.",
+    "note": "Excludes inventory and the identified tariff receivable. Other non-customer receivables may remain. Scenario ratios change selected balances while holding others constant; the ratio does not guarantee timely payment."
+  },
+  "receivables": {
+    "term": "Adjusted receivables — collections lever",
+    "tip": "Money awaiting collection. Faster collection frees cash, but tighter payment demands can strain customer relationships.",
+    "note": "Uses the model’s adjusted receivables proxy, which may retain non-customer amounts. Reducing the collection-day assumption releases cash; discounts required to achieve faster collection are not automatically modeled."
+  },
+  "arDays": {
+    "term": "Adjusted receivable days",
+    "tip": "An estimate of how many days of sales remain uncollected. Lower generally means cash comes back faster.",
+    "note": "Adjusted year-end receivables divided by total annual revenue, multiplied by 365. Only the identified FY2026 tariff receivable is removed; other non-customer amounts may remain. This is not verified customer payment timing."
+  },
+  "baseYear": {
+    "term": "Annual base year",
+    "tip": "The historical year used as the starting point for a one-year scenario.",
+    "note": "Uses that year’s financial balances and selected cost baseline. The model does not average five years to create its forecast."
+  },
+  "bps": {
+    "term": "Basis points (bps)",
+    "tip": "A way to measure percentage changes: 100 basis points equals one percentage point. Moving from 40% to 41% adds 100 basis points.",
+    "note": "Used for changes in gross margin, rather than percentage growth in the margin itself."
+  },
+  "buybacks": {
+    "term": "Buybacks",
+    "tip": "Cash a company spends buying back its own shares. This leaves less cash available for other uses.",
+    "note": "Modeled separately from operations. The assumed amount is adjustable and represents a discretionary distribution to shareholders."
+  },
+  "allocation": {
+    "term": "Capital allocation",
+    "tip": "How a company divides its financial resources among investment, debt payments, dividends and share repurchases.",
+    "note": "These choices affect remaining cash independently of the business’s operating performance."
+  },
+  "capex": {
+    "term": "Capital expenditure (Capex)",
+    "tip": "Cash spent on long-lasting assets such as equipment, buildings and facilities. More spending reduces cash available today.",
+    "note": "The simulator calculates capex as the selected percentage of projected revenue."
+  },
+  "coverage": {
+    "term": "Cash coverage",
+    "tip": "Roughly how many months starting cash and short-term investments could cover the scenario’s cash use.",
+    "note": "Uses annualized year-one net cash use, including cash debt repayments. Shown before and after shareholder distributions. Excludes undrawn credit; it is not an exhaustion-date prediction or a repeating debt-maturity forecast."
+  },
+  "waterfall": {
+    "term": "Cash waterfall",
+    "tip": "A step-by-step chart showing where cash comes from, where it goes and how much remains.",
+    "note": "Starts with cash plus short-term investments. Operations, working capital, capex, shareholder distributions and debt repayment reconcile to ending liquid assets. Undrawn credit capacity is separate."
+  },
+  "cp": {
+    "term": "Commercial paper",
+    "tip": "Short-term IOUs large companies sell to investors to borrow money, usually for weeks or months.",
+    "note": "The ability to issue commercial paper is not cash already available. Its capacity is not added to liquidity or counted again alongside committed credit lines."
+  },
+  "maturity": {
+    "term": "Contractual principal / bond maturity",
+    "tip": "Principal is the borrowed amount that must be repaid. Maturity is the date that repayment becomes due.",
+    "note": "Principal excludes interest. The model compares paying scheduled bonds from cash with replacing them through refinancing."
+  },
+  "cogs": {
+    "term": "Cost of goods sold (COGS)",
+    "tip": "The costs Nike records for products it sells, before advertising and general business expenses. Higher costs leave less gross profit.",
+    "note": "Scenario costs reflect the selected baseline, revenue growth, gross-margin changes and any separately entered incremental tariff cost."
+  },
+  "current": {
+    "term": "Current ratio",
+    "tip": "Short-term assets compared with bills due within a year. A higher ratio generally indicates more resources relative to those bills.",
+    "note": "Current assets include items expected to be used or converted into cash within a year. Scenario ratios change selected balances while holding others constant; they are not based on a complete forecast balance sheet."
+  },
+  "da": {
+    "term": "D&A — depreciation and amortization",
+    "tip": "Accounting expenses that spread the cost of long-lasting assets over time, rather than charging their full cost at purchase.",
+    "note": "These expenses reduce profit without necessarily using cash in the same period, so the cash-flow estimate adds them back. The scenario holds base-year D&A fixed in dollars."
+  },
+  "demand": {
+    "term": "Demand creation",
+    "tip": "Spending to promote Nike’s brand and products, including advertising and marketing.",
+    "note": "The model assumes this spending changes in proportion to revenue. That is a planning assumption, not a forecast of Nike’s spending decisions."
+  },
+  "dividends": {
+    "term": "Dividends",
+    "tip": "Cash payments a company makes to shareholders. Larger payments leave less cash inside the business.",
+    "note": "The assumed amount is adjustable and modeled separately from operating performance."
+  },
+  "liquidAssets": {
+    "term": "Ending liquid assets",
+    "tip": "Cash and short-term investments left at the end of the scenario year, after the modeled inflows and spending.",
+    "note": "Includes operating cash effects, capex, shareholder distributions and cash debt repayments. Excludes unused credit lines. A negative signed result represents funding needed, not a negative cash asset."
+  },
+  "renewal": {
+    "term": "Facility renewal",
+    "tip": "Extending a bank credit line beyond its current expiry date.",
+    "note": "The simulator assumes renewal on unchanged terms only when selected. Lender agreement is required and is not guaranteed; otherwise expired capacity is excluded from ending liquidity."
+  },
+  "fcfProxy": {
+    "term": "FCF proxy",
+    "tip": "The model’s simplified estimate of free cash flow in the “what if” year.",
+    "note": "Uses modeled after-tax operating profit, D&A, after-tax net interest, working-capital changes and capex. It omits some actual cash-flow items and will not necessarily match what Nike would report."
+  },
+  "fiscal": {
+    "term": "Fiscal year (FY)",
+    "tip": "A company’s annual reporting period. Nike’s ends May 31, so FY2026 ends May 31, 2026.",
+    "note": "Fiscal periods are kept separate from calendar years. The latest quarter is displayed separately from annual trends."
+  },
+  "fcf": {
+    "term": "Free cash flow (FCF)",
+    "tip": "Cash left from running the business after spending on equipment and facilities, before dividends, buybacks and debt repayments.",
+    "note": "Historical FCF equals reported operating cash flow minus cash capital expenditure. It is separate from the simplified forward FCF proxy."
+  },
+  "funding": {
+    "term": "Funding gap / unfunded requirement",
+    "tip": "Extra money needed when available cash and modeled cash generation cannot cover the scenario’s spending.",
+    "note": "Starting resources include cash and short-term investments. Borrowing is not automatic. Undrawn credit is shown separately, and a shortfall remains visible rather than being treated as a negative cash asset."
+  },
+  "margin": {
+    "term": "Gross margin",
+    "tip": "The percentage of sales left after product costs, available to cover other expenses, taxes and profit.",
+    "note": "Calculated as revenue minus cost of goods sold, divided by revenue."
+  },
+  "marginChange": {
+    "term": "Gross-margin change (bps)",
+    "tip": "How much the share of sales left after product costs changes. A 100-basis-point decrease means one percentage point less margin.",
+    "note": "Measured relative to the selected profitability baseline. Exclude costs entered through the separate tariff control to avoid counting the same cost twice."
+  },
+  "history": {
+    "term": "Historical range",
+    "tip": "The lowest and highest readings across the five historical years. It helps show whether an assumption is unusual.",
+    "note": "The range is context, not an optimal target. Normalized scenario inventory and payable days use a different cost denominator from reported history, so direct comparisons require care."
+  },
+  "stretch": {
+    "term": "Historical stretch — Low / Medium / High",
+    "tip": "Shows how far a scenario’s operating-day assumptions stretch relative to the five-year history. Higher stretch deserves closer examination.",
+    "note": "Change size is compared with the historical high-to-low span, using a one-day minimum span. Low is up to 25%; Medium is above 25% through 50%; High is above 50% or a target outside the range. These are mechanical flags, not loss probabilities."
+  },
+  "hypothetical": {
+    "term": "Hypothetical",
+    "tip": "A “what if” result based on selected assumptions, rather than something that has already happened.",
+    "note": "Scenarios are not reported results, Nike guidance or predictions that the selected conditions will occur."
+  },
+  "inventory": {
+    "term": "Inventory — inventory lever",
+    "tip": "Products held for sale. Holding less can free cash, but too little stock can mean missed sales.",
+    "note": "Reducing the inventory-day assumption releases cash in the model. Clearance discounts may reduce profit, but those discounts are not automatically generated by the inventory adjustment."
+  },
+  "dio": {
+    "term": "Inventory days (DIO)",
+    "tip": "Roughly how many days of product Nike holds. Fewer days frees cash, but too few can mean empty shelves.",
+    "note": "Ending inventory divided by annual product costs, multiplied by 365. Dashboard days use reported costs; scenario starting days use the selected baseline costs."
+  },
+  "checks": {
+    "term": "Model checks / PASS",
+    "tip": "PASS means a calculation, input or funding check is satisfied. It does not mean the scenario is realistic or audited.",
+    "note": "Checks include reconciliation identities, valid inputs and cash sufficiency. They do not validate every assumption or endorse a business decision. A funding flag can correctly identify a scenario requiring more cash."
+  },
+  "netDebt": {
+    "term": "Net debt / (net cash)",
+    "tip": "Debt minus cash and short-term investments. A negative result means these liquid assets exceed the debt included in the measure.",
+    "note": "Includes notes payable and current and noncurrent borrowing balances. Operating lease obligations are excluded. Net debt is suppressed in unfunded scenarios rather than calculated using a negative cash asset."
+  },
+  "netIncome": {
+    "term": "Net income",
+    "tip": "Accounting profit after recorded expenses and taxes. Profit and cash generated during the same period can differ.",
+    "note": "Differences arise because some income and expenses are recorded before or after cash changes hands, and some expenses do not involve current cash payments."
+  },
+  "interest": {
+    "term": "Net interest",
+    "tip": "Interest paid on borrowing minus interest earned. The result can be a cost or a source of income.",
+    "note": "The base-year net amount is held flat and tax-effected at the scenario rate. Interest is not recalculated for cash changes, refinancing or changing rates."
+  },
+  "nonGaap": {
+    "term": "Non-GAAP",
+    "tip": "Financial figures calculated differently from standard U.S. accounting measures, often to adjust for particular items.",
+    "note": "Different adjustment methods can produce different results. The model’s adjusted and hypothetical measures should be read alongside reported figures."
+  },
+  "noBurn": {
+    "term": "“No burn”",
+    "tip": "Modeled cash generation covers the cash uses included in this coverage measure.",
+    "note": "It does not mean Nike has no expenses or that cash will last indefinitely. The before- and after-distribution measures include different cash uses."
+  },
+  "nopat": {
+    "term": "NOPAT",
+    "tip": "Operating profit after taxes, before interest. It helps show what the core business earns regardless of how it is financed.",
+    "note": "Calculated from modeled operating profit using the selected tax rate. Operating losses receive no immediate tax benefit; interest is handled separately."
+  },
+  "normalized": {
+    "term": "Normalized (tariff adjusted)",
+    "tip": "A starting point that removes the specified tariff-recovery profit benefit, helping users examine performance without that benefit.",
+    "note": "For FY2026, adds $0.986B back to reported product costs. Only that item is adjusted; this is not a complete assessment of recurring earnings. Historical reported figures remain unchanged."
+  },
+  "cfo": {
+    "term": "Operating cash flow",
+    "tip": "Cash generated or used by day-to-day business activities during a period.",
+    "note": "Historical values come from the cash-flow statement. The simulator produces a simplified estimate rather than reconstructing every reported cash-flow adjustment."
+  },
+  "overhead": {
+    "term": "Operating overhead",
+    "tip": "General costs of running the business, separate from product costs and brand-promotion spending.",
+    "note": "Held fixed in dollars by default. Overhead flex controls the share that changes in proportion to revenue."
+  },
+  "leverage": {
+    "term": "Operating leverage",
+    "tip": "How relatively fixed costs make profits more sensitive to sales changes. Falling sales may not bring matching cost savings.",
+    "note": "Overhead and D&A stay fixed by default. This is a planning assumption, not a statement about Nike’s actual cost contracts or ability to reduce spending."
+  },
+  "opProfit": {
+    "term": "Operating profit",
+    "tip": "Sales minus product costs and the modeled costs of promoting and running the business, before interest and taxes.",
+    "note": "Calculated as revenue minus COGS, demand creation and operating overhead. It excludes other income and expense and differs from Nike’s broader earnings measures."
+  },
+  "flex": {
+    "term": "Overhead flex %",
+    "tip": "How much overhead moves with sales. At 0%, it stays fixed; at 100%, it changes proportionally with revenue.",
+    "note": "The percentage represents the share of base-year overhead that scales with revenue. It is an adjustable cost-behavior assumption."
+  },
+  "payables": {
+    "term": "Payables — supplier-payment lever",
+    "tip": "Bills owed to suppliers. Taking longer to pay preserves cash, but can strain supplier relationships.",
+    "note": "Longer payment assumptions can affect prices, supplier flexibility and supply reliability. Those operational consequences are not automatically forecast by the cash calculation."
+  },
+  "dpo": {
+    "term": "Payable days (DPO)",
+    "tip": "Roughly how long supplier balances remain unpaid. More days preserve cash, but suppliers may resist longer payment terms.",
+    "note": "Ending accounts payable divided by annual product costs, multiplied by 365. This is not a measure of individual invoice due dates."
+  },
+  "baseline": {
+    "term": "Profitability baseline",
+    "tip": "The starting relationship between sales and product costs, before applying scenario changes.",
+    "note": "FY2026 can use reported costs or costs adjusted to remove the specified tariff-recovery benefit."
+  },
+  "proforma": {
+    "term": "Pro forma",
+    "tip": "“As if” numbers showing what financial figures would look like under the scenario’s assumptions.",
+    "note": "The projected ratios change selected balances while holding other items constant. They are not a complete forecast of all assets and obligations."
+  },
+  "proxy": {
+    "term": "Proxy",
+    "tip": "An approximation used when the exact measure is unavailable.",
+    "note": "Adjusted receivable days are one example: they use total revenue and may retain some non-customer balances."
+  },
+  "refinance": {
+    "term": "Refinance vs. repay from cash",
+    "tip": "Repaying uses cash to reduce debt. Refinancing replaces old borrowing with new borrowing, preserving cash while leaving debt outstanding.",
+    "note": "Applies to scheduled bond principal. Replacement borrowing is assumed due beyond the next year. New rates, issuance fees and changes in net interest are not modeled; refinancing access is not guaranteed."
+  },
+  "reported": {
+    "term": "Reported baseline",
+    "tip": "Uses the historical year’s reported product costs as the starting point for the scenario.",
+    "note": "Does not remove the specified tariff-recovery benefit. Selecting it changes the scenario baseline, not the historical dashboard."
+  },
+  "revenue": {
+    "term": "Revenue",
+    "tip": "Sales recorded during the period, before expenses. Recorded sales do not necessarily mean cash has already been received.",
+    "note": "Uses Nike’s reported total revenue, including direct-to-consumer sales."
+  },
+  "sensitivity": {
+    "term": "Sensitivity table",
+    "tip": "Shows how the result changes across combinations of sales growth and gross margin, with other assumptions unchanged.",
+    "note": "Each cell recalculates ending total liquidity while holding the other selected inputs fixed. Cells are separate scenarios, not predictions."
+  },
+  "sga": {
+    "term": "SG&A",
+    "tip": "Selling, general and administrative expenses: the costs of promoting and running the business beyond product costs.",
+    "note": "The simulator separates these expenses into demand creation and operating overhead because it assumes they respond differently to revenue changes."
+  },
+  "stInvestments": {
+    "term": "Short-term (ST) investments",
+    "tip": "Investments Nike can usually turn into cash fairly quickly, such as short-term bonds, but that aren't counted as cash itself.",
+    "note": "Combined with cash when measuring liquid resources. Their value and availability can differ from cash; the model does not guarantee immediate conversion without loss."
+  },
+  "tariff": {
+    "term": "Tariff",
+    "tip": "A tax on imported goods that can raise the cost of products.",
+    "note": "The additional tariff input raises scenario product costs beyond the selected baseline. It represents a hypothetical unrecovered cost burden."
+  },
+  "tariffAR": {
+    "term": "Tariff receivable",
+    "tip": "Tariff payments Nike expects to get back. They sit in receivables, but customers don't owe this money.",
+    "note": "The model removes the identified $0.684B FY2026 balance from its receivables proxy. It does not add the recovery as a recurring future cash inflow."
+  },
+  "tariffBenefit": {
+    "term": "Tariff-recovery benefit",
+    "tip": "An accounting benefit from recovering tariff payments that reduced reported product costs and increased profit.",
+    "note": "The specified FY2026 benefit is $0.986B. The normalized scenario removes it. An accounting benefit does not necessarily mean cash was received in the same period."
+  },
+  "liquidity": {
+    "term": "Total liquidity / total liquidity incl. facilities",
+    "tip": "Cash, short-term investments and unused committed credit lines together. Part is borrowing capacity, not cash already held.",
+    "note": "Scenario totals exclude expired commitments unless renewal is assumed. They retain modeled cash shortfalls, and no credit-line drawing occurs automatically."
+  },
+  "ttm": {
+    "term": "Trailing twelve months (TTM)",
+    "tip": "Results for the latest twelve months, rather than just the latest quarter.",
+    "note": "Combines the last full fiscal year with newer quarterly information. Used for the latest inventory and payable-day calculations so one quarter is not treated as a full year."
+  },
+  "unaudited": {
+    "term": "Unaudited",
+    "tip": "Financial statements that have not received an annual audit opinion for that period.",
+    "note": "Quarterly statements may still be reviewed by independent accountants. Unaudited does not mean unchecked or necessarily incorrect."
+  },
+  "undrawn": {
+    "term": "Undrawn facilities",
+    "tip": "Bank credit lines Nike has not yet used. They offer borrowing capacity, not cash Nike already holds.",
+    "note": "Availability is subject to the lending terms. The model considers commitment expiry dates and does not assume automatic borrowing or renewal."
+  },
+  "verify": {
+    "term": "VERIFY",
+    "tip": "A figure that still needs confirmation before it can be used reliably.",
+    "note": "Remains missing rather than being treated as zero. Calculations requiring the unresolved figure are disabled."
+  },
+  "wc": {
+    "term": "Working capital",
+    "tip": "Cash tied up in daily operations: unpaid customer balances plus unsold products, minus bills owed to suppliers.",
+    "note": "This model uses adjusted receivables plus inventory minus accounts payable, rather than every current asset and obligation. Its receivables balance may retain non-customer amounts."
+  },
+  "nwc": {
+    "term": "Working-capital change (ΔNWC)",
+    "tip": "How much more or less money is tied up in working capital. Positive uses cash; negative releases it.",
+    "note": "Change in adjusted receivables plus inventory minus accounts payable between starting and projected balances. Separated into growth/cost effects and efficiency-day effects."
+  },
+  "nwcGrowth": {
+    "term": "Working-capital change — growth/cost",
+    "tip": "Cash tied up or released because sales and product costs change, before changing collection, inventory or payment days.",
+    "note": "Growth can require funding; contraction can release it. Margin and tariff-cost changes can also affect this component. Calculated separately from efficiency-day changes to avoid double-counting."
+  },
+  "nwcEfficiency": {
+    "term": "Working-capital change — efficiency",
+    "tip": "Cash tied up or released by changing how quickly Nike collects payments, sells inventory or pays suppliers.",
+    "note": "Measured at projected revenue and costs. Lower receivable or inventory days release cash; higher payable days also release cash. Positive efficiency ΔNWC means cash is consumed."
+  },
+  "yoy": {
+    "term": "Year over year (YoY)",
+    "tip": "A comparison with the corresponding period one year earlier.",
+    "note": "Annual results compare with the previous fiscal year. Quarterly results compare with the same quarter of the previous fiscal year."
+  }
+});
+
+// Additive help layer. Existing UI text, DATA and calc are not edited.
+(() => {
+ 'use strict';
+ const tooltip=document.createElement('div');tooltip.id='finance-help-tooltip';tooltip.className='finance-help-tooltip';tooltip.setAttribute('role','tooltip');tooltip.hidden=true;tooltip.dataset.helpAdded='tooltip';document.body.append(tooltip);
+ const style=document.createElement('style');style.dataset.helpAdded='styles';style.textContent=`
+ .finance-help-trigger{position:absolute;z-index:2;display:inline-flex;align-items:center;justify-content:center;width:15px;height:15px;min-width:15px;min-height:15px;padding:0;border:1px solid var(--muted);border-radius:50%;background:var(--paper);color:var(--muted);font:500 10px/1 'IBM Plex Sans',sans-serif;cursor:pointer;letter-spacing:0;box-shadow:none;flex-shrink:0}
+ #live .live-tag{display:inline-block;position:relative;padding-right:19px;white-space:nowrap;flex-shrink:0}
+ @media(max-width:720px){#live>div:first-child{flex-wrap:wrap;row-gap:2px}#live>div:first-child .live-label{white-space:nowrap;flex-basis:100%}}
+ .finance-help-trigger.help-dark{color:#d3dfe5;border-color:#c4cfd6;background:var(--ink)}
+ .finance-help-trigger:hover,.finance-help-trigger:focus-visible,.finance-help-trigger[aria-expanded=true]{color:white;background:var(--accent);border-color:var(--accent)}
+ .finance-help-trigger:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+ .finance-help-tooltip{position:fixed;z-index:10000;width:max-content;max-width:min(280px,calc(100vw - 16px));padding:12px 14px;border:1px solid #b9c9cb;border-radius:8px;background:#fff;color:#142c3c;box-shadow:0 7px 24px #142c3c2b;font:14px/1.45 'IBM Plex Sans',system-ui,sans-serif;letter-spacing:normal;text-transform:none;user-select:text;overflow-wrap:anywhere;pointer-events:auto}
+ .finance-help-tooltip strong{display:block;font-weight:600;margin-bottom:5px;font-size:12px}
+ #finance-glossary{margin-top:20px}#finance-glossary dl{margin:18px 0 0}#finance-glossary dt{font-weight:600;margin-top:20px;font-size:14px}#finance-glossary dd{margin:5px 0 0;font-size:14px}#finance-glossary .glossary-note{font-size:12px;color:var(--muted);margin-top:6px}
+ `;document.head.append(style);
+ const glossary=document.createElement('article');glossary.id='finance-glossary';glossary.className='card';glossary.dataset.helpAdded='glossary';
+ const title=document.createElement('h3');title.textContent='Glossary';glossary.append(title);
+ const dl=document.createElement('dl');
+ const entries=Object.entries(GLOSSARY).sort((a,b)=>a[1].term.localeCompare(b[1].term,'en',{sensitivity:'base',ignorePunctuation:true}));
+ for(const [key,g]of entries){const dt=document.createElement('dt');dt.textContent=g.term;dt.id='glossary-'+key;const dd=document.createElement('dd');dd.textContent=g.tip;if(g.note){const note=document.createElement('p');note.className='glossary-note';note.textContent=g.note;dd.append(note);}dl.append(dt,dd);}
+ glossary.append(dl);document.getElementById('methodology').append(glossary);
+ let active=null,pinned=false,hideTimer=0,queued=false,busy=false,sequence=0;
+ const bindings=new Set();
+ const originalText=el=>[...el.childNodes].filter(n=>!(n.nodeType===1&&n.matches('[data-help-added]'))).map(n=>n.textContent).join('');
+ const visible=el=>{if(!el||!el.isConnected||el.closest('[hidden]')||!el.getClientRects().length)return false;for(let d=el.closest('details:not([open])');d;d=d.parentElement?.closest('details:not([open])'))if(!d.querySelector(':scope > summary')?.contains(el))return false;return true;};
+ function close(){clearTimeout(hideTimer);if(active)active.setAttribute('aria-expanded','false');active=null;pinned=false;tooltip.hidden=true;tooltip.replaceChildren();}
+ function positionTooltip(){
+  if(!active||!visible(active)){close();return;}
+  tooltip.style.left='8px';tooltip.style.top='8px';
+  const r=active.getBoundingClientRect(),w=tooltip.offsetWidth,h=tooltip.offsetHeight,pad=8,gap=9;
+  const limitX=Math.max(pad,innerWidth-w-pad),limitY=Math.max(pad,innerHeight-h-pad),clamp=(v,max)=>Math.max(pad,Math.min(v,max));
+  const candidates=[{x:r.left,y:r.bottom+gap},{x:r.right-w,y:r.bottom+gap},{x:r.left,y:r.top-h-gap},{x:r.right-w,y:r.top-h-gap},{x:r.right+gap,y:r.top},{x:r.left-w-gap,y:r.top},{x:pad,y:pad},{x:limitX,y:pad},{x:pad,y:limitY}];
+  const sliders=[...document.querySelectorAll('input[type=range]')].filter(visible).map(e=>e.getBoundingClientRect());
+  let best=null;
+  for(const c of candidates){const x=clamp(c.x,limitX),y=clamp(c.y,limitY);let overlap=0;
+   for(const s of sliders)overlap+=Math.max(0,Math.min(x+w,s.right+5)-Math.max(x,s.left-5))*Math.max(0,Math.min(y+h,s.bottom+5)-Math.max(y,s.top-5));
+   const score=overlap*100000+Math.hypot(x-r.left,y-r.bottom);if(!best||score<best.score)best={x,y,score};}
+  tooltip.style.left=best.x+'px';tooltip.style.top=best.y+'px';
+ }
+ function open(btn,pin=false){if(busy&&!pin)return;clearTimeout(hideTimer);if(active&&active!==btn)active.setAttribute('aria-expanded','false');active=btn;pinned=pin;btn.setAttribute('aria-expanded',String(pin));
+  const g=GLOSSARY[btn.dataset.helpKey],heading=document.createElement('strong'),text=document.createElement('span');heading.textContent=g.term;text.textContent=g.tip;tooltip.replaceChildren(heading,text);tooltip.hidden=false;positionTooltip();}
+ function delayHide(){clearTimeout(hideTimer);hideTimer=setTimeout(()=>{if(!pinned&&!tooltip.matches(':hover')&&!(active&&active.matches(':hover'))&&!(active&&active.matches(':focus-visible')))close();},100);}
+ function bind(host,key){
+  if(!host||!GLOSSARY[key]||host.closest('#finance-glossary,#finance-help-tooltip,canvas,svg,select,option,button,a'))return;
+  if([...host.children].some(e=>e.dataset.helpKey===key))return;
+  const btn=document.createElement('button');btn.type='button';btn.className='finance-help-trigger';btn.textContent='?';btn.dataset.helpKey=key;btn.dataset.helpAdded='icon';btn.setAttribute('aria-label','What is '+GLOSSARY[key].term+'?');btn.setAttribute('aria-expanded','false');btn.setAttribute('aria-describedby',tooltip.id);btn.id='finance-help-'+(++sequence);host.append(btn);bindings.add({host,btn});
+  btn.addEventListener('pointerenter',e=>{if(e.pointerType!=='touch'&&(!pinned||active===btn))open(btn,pinned&&active===btn);});
+  btn.addEventListener('pointerleave',delayHide);
+  btn.addEventListener('focus',()=>{if(!pinned)open(btn,false);});
+  btn.addEventListener('blur',()=>{if(!pinned)delayHide();});
+  btn.addEventListener('click',e=>{e.preventDefault();if(active===btn&&pinned)close();else open(btn,true);});
+ }
+ function select(selector,key,match=null,all=false){const nodes=[...document.querySelectorAll(selector)].filter(e=>visible(e)&&!e.closest('#finance-glossary')&&(!match||originalText(e).toLowerCase().includes(match.toLowerCase())));for(const node of all?nodes:nodes.slice(0,1))bind(node,key);}
+ function annotate(){
+  queued=false;
+  // Attach only to concise labels/headings/legend items. Definitions without a
+  // suitable visible label remain in the full glossary, without a question mark.
+  const rules=[
+   ['#historical-kpis .name','revenue','Revenue'],['#historical-kpis .name','margin','Gross margin'],['#historical-kpis .name','fcf','Free cash flow'],['#historical-kpis .name','liquidity','Total liquidity'],['#historical-kpis .name','netDebt','Net debt'],['#historical-kpis .name','ccc','Adjusted CCC'],
+   ['#historical-kpis .delta','yoy','YoY'],
+   ['#rev-chart-legend li','margin','Gross margin'],['#fcf-chart-legend li','netIncome','Net income'],['#days-chart-legend li','arDays','Adjusted receivable'],['#days-chart-legend li','dio','Inventory days'],['#days-chart-legend li','dpo','Payable days'],
+   ['#liq-chart-legend li','stInvestments','ST investments'],['#liq-chart-legend li','undrawn','Undrawn facilities'],['#debt-chart-legend li','maturity'],
+   ['.latest .pill','unaudited'],
+   ['#live .live-tag','hypothetical'],['#live .live-label','fcfProxy','FCF proxy'],['#live .live-label','liquidAssets','Ending liquid assets'],['#live .live-label','liquidity','Total liquidity'],
+   ['label[for=base-year]','baseYear'],['label[for=baseline]','baseline'],
+   ['label[for=range-marginBps]','marginChange'],['label[for=range-receivableDaysChange]','arDays'],['label[for=range-inventoryDaysChange]','dio'],['label[for=range-payableDaysChange]','dpo'],
+   ['label[for=range-capexRate]','capex'],['label[for=range-buybacksB]','buybacks'],['label[for=range-dividendsB]','dividends'],['label[for=range-overheadFlex]','flex'],['label[for=tariff-mode]','tariff'],['label[for=refinance]','refinance'],
+   ['#scenario-metrics .label','margin','Final gross margin'],['#scenario-metrics .label','ccc','Adjusted CCC'],['#scenario-metrics .label','opProfit','Operating profit'],
+   ['#simulator h3','waterfall','From starting resources'],['#simulator h3','leverage','Operating leverage'],['#simulator h3','sensitivity','How much changes'],['#simulator h3','coverage','Cash coverage'],
+   ['#operating-bridge tbody th','cogs','COGS'],['#operating-bridge tbody th','demand','Demand creation'],['#operating-bridge tbody th','overhead','Operating overhead'],['#operating-bridge tbody th','opProfit','Operating profit'],['#operating-bridge tbody th','nopat','NOPAT'],['#operating-bridge tbody th','da','D&A'],['#operating-bridge tbody th','interest','net interest'],['#operating-bridge tbody th','nwcGrowth','Growth/cost'],['#operating-bridge tbody th','nwcEfficiency','Efficiency'],['#operating-bridge tbody th','capex','Capex'],['#operating-bridge tbody th','fcfProxy','FCF proxy'],
+   ['#operating-bridge tbody th','current','Current ratio'],['#operating-bridge tbody th','quick','Adjusted quick ratio'],['#operating-bridge h3','proforma','pro forma'],
+   ['#coverage b','noBurn','No burn'],
+   ['#decision-cards h3','receivables','Adjusted receivables'],['#decision-cards h3','inventory','Inventory'],['#decision-cards h3','payables','Payables'],['#decision-cards .pill','stretch',null,true],['#decision-cards .scale-labels > span:last-child','history',null,true],['#decisions h3','allocation','capital allocation'],
+   ['#accounting-notes h3','tariffAR','Tariff receivable'],
+   ['.note-strip summary > span:first-child','checks']
+  ];for(const r of rules)select(...r);
+  layout();
+ }
+ function textEnd(host){const walker=document.createTreeWalker(host,NodeFilter.SHOW_TEXT,{acceptNode:n=>n.parentElement.closest('[data-help-added]')||!n.textContent.trim()?NodeFilter.FILTER_REJECT:NodeFilter.FILTER_ACCEPT});let n,last;while(n=walker.nextNode())last=n;if(!last)return null;const range=document.createRange();range.selectNodeContents(last);const rects=[...range.getClientRects()];return rects.at(-1);}
+ function layout(){
+  for(const binding of [...bindings]){const {host,btn}=binding;if(!btn.isConnected){bindings.delete(binding);if(active===btn)close();continue;}
+   btn.style.visibility='hidden';if(!visible(host))continue;
+   const r=textEnd(host);if(!r)continue;
+   const parent=btn.offsetParent??document.body,pr=parent.getBoundingClientRect();
+   const border=host.closest('.kpi,.card,.controls,.live-inner,.wrap');const maxRight=Math.min(innerWidth-8,border?border.getBoundingClientRect().right-7:innerWidth-8);
+   const siblings=[...host.children].filter(e=>e.classList.contains('finance-help-trigger'));const offset=siblings.indexOf(btn)*19;
+   let x=r.right+4+offset,y=r.top+(r.height-15)/2;
+   // Use the existing right-side whitespace; no padding, widths or line wrapping change.
+   if(x+15>maxRight){x=maxRight-15;y=r.bottom+1+offset;}
+   btn.style.left=(x-pr.left-parent.clientLeft+parent.scrollLeft)+'px';btn.style.top=(y-pr.top-parent.clientTop+parent.scrollTop)+'px';
+   btn.classList.toggle('help-dark',!!host.closest('.mast,.latest'));btn.style.visibility='visible';
+  }
+  if(active)positionTooltip();
+ }
+ function schedule(){if(!queued){queued=true;requestAnimationFrame(annotate);}}
+ tooltip.addEventListener('pointerenter',()=>clearTimeout(hideTimer));tooltip.addEventListener('pointerleave',delayHide);
+ document.addEventListener('pointerdown',e=>{if(e.target.closest('.finance-help-trigger')||tooltip.contains(e.target))return;close();busy=true;},{capture:true});
+ window.addEventListener('pointerup',()=>{busy=false;});window.addEventListener('pointercancel',()=>{busy=false;});
+ document.addEventListener('click',e=>{if(active&&!e.target.closest('.finance-help-trigger')&&!tooltip.contains(e.target))close();},{capture:true});
+ document.addEventListener('keydown',e=>{if(e.key==='Escape'&&active)close();},{capture:true});
+ document.addEventListener('scroll',layout,{capture:true,passive:true});window.addEventListener('resize',layout);document.fonts?.ready.then(layout);
+ new MutationObserver(records=>{if(records.some(r=>!r.target.closest?.('[data-help-added]')&&(r.type==='attributes'||[...r.addedNodes,...r.removedNodes].some(n=>!(n.nodeType===1&&n.hasAttribute('data-help-added'))))))schedule();}).observe(document.body,{subtree:true,childList:true,attributes:true,attributeFilter:['hidden','open']});
+ document.addEventListener('toggle',schedule,{capture:true});
+ // Keep overlays aligned when expanded controls or chart rendering change section heights.
+ const resizeObserver=new ResizeObserver(layout);
+ for(const el of document.querySelectorAll('body,main,.controls,#live'))resizeObserver.observe(el);
+ annotate();
+})();
+
 </script>
 </body></html>
