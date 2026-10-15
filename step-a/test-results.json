@@ -1,0 +1,225 @@
+{
+  "status": "PASS",
+  "sourcedFacts": 404,
+  "assertions": 200837,
+  "scenarioRuns": 970,
+  "independentReference": "50-digit Python Decimal calculation; direct projected balance method",
+  "printedPage34Verified": {
+    "pdfPhysicalPage": 36,
+    "url": "https://investors.nike.com/sec-filings/all-sec-filings/content/0000320187-26-000193/0000320187-26-000193.pdf#page=36",
+    "facilities": "Zero drawings at both dates explicitly disclosed",
+    "commercialPaper": "Zero outstanding during FY2027 Q1 explicitly disclosed"
+  },
+  "summary": [
+    {
+      "scenario": "Base",
+      "inputs": {
+        "baseYear": "FY2026",
+        "baseline": "normalized",
+        "receivableDaysChange": 0,
+        "inventoryDaysChange": 0,
+        "payableDaysChange": 0,
+        "growth": 0,
+        "marginBps": 0,
+        "tariffMode": "off",
+        "tariffB": 0,
+        "tariffRate": 0,
+        "capexRate": 0.014742014742014743,
+        "buybacksB": 0.146,
+        "dividendsB": 2.407,
+        "taxRate": 0.2030769230769231,
+        "overheadFlex": 0,
+        "renewFacilities": false,
+        "refinanceMaturity": false
+      },
+      "revenue": 46.398,
+      "cogs": 27.473,
+      "nopat": 2.240150769230775,
+      "growthDeltaNWC": 0,
+      "efficiencyDeltaNWC": 0,
+      "totalDeltaNWC": 0,
+      "fcfProxy": 2.3429969230769285,
+      "endingLiquidAssets": 6.8169969230769265,
+      "totalLiquidity": 8.816996923076927,
+      "adjustedCCC": 93.1044659701839,
+      "runwayBefore": {
+        "months": null,
+        "status": "no-burn",
+        "annualCashUse": 0
+      },
+      "runwayAfter": {
+        "months": 49.01531637268877,
+        "status": "annualized-cash-use",
+        "annualCashUse": 2.2100030769230714
+      }
+    },
+    {
+      "scenario": "Inventory Cleanup",
+      "inputs": {
+        "baseYear": "FY2026",
+        "baseline": "normalized",
+        "receivableDaysChange": 0,
+        "inventoryDaysChange": -10,
+        "payableDaysChange": 0,
+        "growth": 0,
+        "marginBps": -100,
+        "tariffMode": "off",
+        "tariffB": 0,
+        "tariffRate": 0,
+        "capexRate": 0.014742014742014743,
+        "buybacksB": 0.146,
+        "dividendsB": 2.407,
+        "taxRate": 0.2030769230769231,
+        "overheadFlex": 0,
+        "renewFacilities": false,
+        "refinanceMaturity": false
+      },
+      "revenue": 46.398,
+      "cogs": 27.93698,
+      "nopat": 1.8703944000000061,
+      "growthDeltaNWC": 0.06588235649546836,
+      "efficiencyDeltaNWC": -0.7653967123287672,
+      "totalDeltaNWC": -0.6995143558332988,
+      "fcfProxy": 2.6727549096794583,
+      "endingLiquidAssets": 7.146754909679457,
+      "totalLiquidity": 9.146754909679457,
+      "adjustedCCC": 83.1044659701839,
+      "runwayBefore": {
+        "months": null,
+        "status": "no-burn",
+        "annualCashUse": 0
+      },
+      "runwayAfter": {
+        "months": 57.61163826867542,
+        "status": "annualized-cash-use",
+        "annualCashUse": 1.8802450903205417
+      }
+    },
+    {
+      "scenario": "Demand Downturn",
+      "inputs": {
+        "baseYear": "FY2026",
+        "baseline": "normalized",
+        "receivableDaysChange": 5,
+        "inventoryDaysChange": 15,
+        "payableDaysChange": 0,
+        "growth": -0.1,
+        "marginBps": -200,
+        "tariffMode": "off",
+        "tariffB": 0,
+        "tariffRate": 0,
+        "capexRate": 0.014742014742014743,
+        "buybacksB": 0.146,
+        "dividendsB": 2.407,
+        "taxRate": 0.2030769230769231,
+        "overheadFlex": 0,
+        "renewFacilities": false,
+        "refinanceMaturity": false
+      },
+      "revenue": 41.7582,
+      "cogs": 25.560864,
+      "nopat": 0.44526961230769485,
+      "growthDeltaNWC": -0.7962117583081569,
+      "efficiencyDeltaNWC": 1.622476602739726,
+      "totalDeltaNWC": 0.826264844431569,
+      "fcfProxy": -0.20974907827772038,
+      "endingLiquidAssets": 4.264250921722278,
+      "totalLiquidity": 6.264250921722278,
+      "adjustedCCC": 113.1044659701839,
+      "runwayBefore": {
+        "months": 49.020950416880716,
+        "status": "annualized-cash-use",
+        "annualCashUse": 2.2097490782777203
+      },
+      "runwayAfter": {
+        "months": 22.7440073410652,
+        "status": "annualized-cash-use",
+        "annualCashUse": 4.762749078277721
+      }
+    },
+    {
+      "scenario": "Tariff Shock",
+      "inputs": {
+        "baseYear": "FY2026",
+        "baseline": "normalized",
+        "receivableDaysChange": 0,
+        "inventoryDaysChange": 0,
+        "payableDaysChange": 0,
+        "growth": 0,
+        "marginBps": 0,
+        "tariffMode": "percent",
+        "tariffB": 0,
+        "tariffRate": 0.02,
+        "capexRate": 0.014742014742014743,
+        "buybacksB": 0.146,
+        "dividendsB": 2.407,
+        "taxRate": 0.2030769230769231,
+        "overheadFlex": 0,
+        "renewFacilities": false,
+        "refinanceMaturity": false
+      },
+      "revenue": 46.398,
+      "cogs": 28.02246,
+      "nopat": 1.8022734153846212,
+      "growthDeltaNWC": 0.07802000000000009,
+      "efficiencyDeltaNWC": 0,
+      "totalDeltaNWC": 0.07802000000000009,
+      "fcfProxy": 1.827099569230775,
+      "endingLiquidAssets": 6.301099569230773,
+      "totalLiquidity": 8.301099569230773,
+      "adjustedCCC": 93.1044659701839,
+      "runwayBefore": {
+        "months": 626.5108740219569,
+        "status": "annualized-cash-use",
+        "annualCashUse": 0.172900430769225
+      },
+      "runwayAfter": {
+        "months": 39.73879558375209,
+        "status": "annualized-cash-use",
+        "annualCashUse": 2.725900430769225
+      }
+    },
+    {
+      "scenario": "Supplier Squeeze",
+      "inputs": {
+        "baseYear": "FY2026",
+        "baseline": "normalized",
+        "receivableDaysChange": 0,
+        "inventoryDaysChange": 5,
+        "payableDaysChange": -10,
+        "growth": 0,
+        "marginBps": -50,
+        "tariffMode": "off",
+        "tariffB": 0,
+        "tariffRate": 0,
+        "capexRate": 0.014742014742014743,
+        "buybacksB": 0.146,
+        "dividendsB": 2.407,
+        "taxRate": 0.2030769230769231,
+        "overheadFlex": 0,
+        "renewFacilities": false,
+        "refinanceMaturity": false
+      },
+      "revenue": 46.398,
+      "cogs": 27.70499,
+      "nopat": 2.0552725846153903,
+      "growthDeltaNWC": 0.03294117824773418,
+      "efficiencyDeltaNWC": 1.1385612328767123,
+      "totalDeltaNWC": 1.1715024111244465,
+      "fcfProxy": 0.9866163273370975,
+      "endingLiquidAssets": 5.460616327337096,
+      "totalLiquidity": 7.460616327337096,
+      "adjustedCCC": 108.1044659701839,
+      "runwayBefore": {
+        "months": 106.89337407159263,
+        "status": "annualized-cash-use",
+        "annualCashUse": 1.0133836726629024
+      },
+      "runwayAfter": {
+        "months": 30.37362492160525,
+        "status": "annualized-cash-use",
+        "annualCashUse": 3.5663836726629023
+      }
+    }
+  ]
+}

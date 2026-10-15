@@ -1,0 +1,62 @@
+{
+  "base": {
+    "revenue": 46.398,
+    "cogs": 27.473,
+    "nopat": 2.240150769230769,
+    "growthDeltaNWC": 0.0,
+    "efficiencyDeltaNWC": 0.0,
+    "totalDeltaNWC": 0.0,
+    "fcfProxy": 2.342996923076923,
+    "signedEndingLiquidAssets": 6.816996923076923,
+    "signedEndingTotalLiquidity": 8.816996923076923,
+    "adjustedCCC": 93.1044659701839
+  },
+  "inventoryCleanup": {
+    "revenue": 46.398,
+    "cogs": 27.93698,
+    "nopat": 1.8703944,
+    "growthDeltaNWC": 0.06588235649546828,
+    "efficiencyDeltaNWC": -0.7653967123287672,
+    "totalDeltaNWC": -0.6995143558332988,
+    "fcfProxy": 2.6727549096794525,
+    "signedEndingLiquidAssets": 7.146754909679452,
+    "signedEndingTotalLiquidity": 9.146754909679453,
+    "adjustedCCC": 83.1044659701839
+  },
+  "demandDownturn": {
+    "revenue": 41.7582,
+    "cogs": 25.560864,
+    "nopat": 0.4452696123076923,
+    "growthDeltaNWC": -0.796211758308157,
+    "efficiencyDeltaNWC": 1.622476602739726,
+    "totalDeltaNWC": 0.8262648444315689,
+    "fcfProxy": -0.20974907827772277,
+    "signedEndingLiquidAssets": 4.264250921722277,
+    "signedEndingTotalLiquidity": 6.264250921722277,
+    "adjustedCCC": 113.1044659701839
+  },
+  "tariffShock": {
+    "revenue": 46.398,
+    "cogs": 28.02246,
+    "nopat": 1.8022734153846154,
+    "growthDeltaNWC": 0.07802,
+    "efficiencyDeltaNWC": 0.0,
+    "totalDeltaNWC": 0.07802,
+    "fcfProxy": 1.8270995692307692,
+    "signedEndingLiquidAssets": 6.301099569230769,
+    "signedEndingTotalLiquidity": 8.30109956923077,
+    "adjustedCCC": 93.1044659701839
+  },
+  "supplierSqueeze": {
+    "revenue": 46.398,
+    "cogs": 27.70499,
+    "nopat": 2.0552725846153845,
+    "growthDeltaNWC": 0.03294117824773414,
+    "efficiencyDeltaNWC": 1.1385612328767123,
+    "totalDeltaNWC": 1.1715024111244465,
+    "fcfProxy": 0.986616327337092,
+    "signedEndingLiquidAssets": 5.460616327337092,
+    "signedEndingTotalLiquidity": 7.460616327337092,
+    "adjustedCCC": 108.1044659701839
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "checks": 89,
+  "chartLoaded": true,
+  "nativeChartCount": 5,
+  "widths": [
+    390,
+    768,
+    1440
+  ],
+  "consoleErrors": [],
+  "source": "Isolated Chrome browser, local HTTP and direct-file tests"
+}
