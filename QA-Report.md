@@ -107,3 +107,14 @@ The browser evidence records tests run in this workspace's isolated Chrome. The 
 ## Final presentation fixes
 
 Persistent HTML legends name every series and identify bar positions or line/bar type, including without the chart CDN. Zero-safe formatters preserve meaningful negatives while removing rounded negative zero. All four mobile tabs wrap into two rows, and the shortened normalized-baseline label fits the desktop control. Target-firm references have been removed from the public HTML and README. All 89 expanded browser checks passed; all 970 engine scenarios are unchanged.
+
+## Live deployment verification — October 14, 2026
+
+[Live model](https://zackaziz.github.io/nike-financial-review/) · [Source repository](https://github.com/ZackAziz/nike-financial-review) · [Successful Pages build](https://github.com/ZackAziz/nike-financial-review/actions/runs/38671287848).
+
+PASS: 23 additional live checks. The HTTPS response is 200 and the served HTML matches the final local file byte-for-byte. Tested all four mobile tabs, persistent legends, default and Demand Downturn calculations, zero formatting, CSV downloads and public scenario URL restoration, with no JavaScript exceptions. Mobile testing used Chrome touch emulation at 390×844 and a 2× pixel ratio, alongside a 1440px desktop viewport; no physical phone test is claimed.
+
+Application commit: `437c5f1e855fb8a7e26899c100bb258bffd276b5`.
+HTML SHA-256: `fb70764b038c697988075d588d97f742268d32c59e46192c398db175580697a7`.
+
+`deployment-qa.json` records the machine-readable verification. Documentation-only commits after the application commit do not alter the tested HTML. LinkedIn has not been changed.

@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "url": "https://zackaziz.github.io/nike-financial-review/",
+  "checks": 23,
+  "phoneTest": "Chrome mobile emulation: 390×844, touch, device scale factor 2; not physical phone hardware",
+  "desktopWidth": 1440,
+  "htmlSha256": "fb70764b038c697988075d588d97f742268d32c59e46192c398db175580697a7",
+  "commit": "437c5f1e855fb8a7e26899c100bb258bffd276b5",
+  "consoleErrors": []
+}

@@ -135,7 +135,8 @@ Historical-stretch indicators: Low ≤25% of the five-year range; Medium ≤50%;
 - `index.html`: complete, standalone application; the primary deliverable.
 - `step-a/`: source-tagged DATA, calculation module, independent Decimal reference and portable engine tests.
 - `QA-Report.md`: results, hand checks, scenario tables and limitations.
-- `browser-qa.json`: browser interaction evidence.
+- `browser-qa.json`: 89 local browser checks.
+- `deployment-qa.json`: 23 live HTTPS checks, including mobile emulation and byte-identical deployed HTML.
 - `Presentation-Materials.md`: LinkedIn draft, résumé bullets and recruiter preparation. Nothing has been posted or added to LinkedIn.
 
 To reproduce engine tests, run `node tests.mjs` inside `step-a`. Optional `python3 reference.py` regenerates the independent reference using the Python standard library. Audit modules mirror the embedded production engine; the HTML does not import them at runtime.
