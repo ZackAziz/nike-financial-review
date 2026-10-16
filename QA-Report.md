@@ -64,6 +64,13 @@ Reviewed HTML SHA-256: `cc16a8b301467627264825d50cb0292eb8cc49cbec559ed04e1478c9
 Machine-readable local evidence: `source-audit.json`, `full-browser-audit.json`, `browser-qa.json`, `all-alignment-qa.json`, `every-tooltip-position-qa.json`, and `step-a/test-results.json`.
 
 
+## Live verification — October 16, 2026
+
+PASS: 51 additional live checks. The [published page](https://zackaziz.github.io/nike-financial-review/) returned HTTP 200 and its HTML matched the reviewed local file byte for byte. Verified default/Downturn calculations, all four views, mobile tab discovery, legends, downloads, public scenario-link restoration, help icons and mobile touch interactions. No JavaScript exceptions occurred. Desktop width: 1440px; touch/mobile emulation at 360px and 390px; not a physical phone test.
+
+Application commit: `79547185ac92a3cb75d18f63cb652b9a8ffad4c7`. [Successful GitHub Pages build](https://github.com/ZackAziz/nike-financial-review/actions/runs/38860332590). HTML SHA-256: `cc16a8b301467627264825d50cb0292eb8cc49cbec559ed04e1478c9694a554f`. Any later documentation-only commit preserves the tested HTML.
+
+
 ---
 
 # Earlier detailed methodology and QA record — October 14, 2026
