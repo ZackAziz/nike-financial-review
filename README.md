@@ -124,10 +124,10 @@ Historical-stretch indicators: Low ≤25% of the five-year range; Medium ≤50%;
 
 ## Sources
 
-- [FY2023 10-K](https://investors.nike.com/sec-filings/all-sec-filings/content/0000320187-23-000039/nke-20230531.htm): FY2022/FY2023 statements, pp. 55, 57–58; facilities/debt, Notes 5–6; segment revenue, Note 15.
+- [FY2023 10-K](https://investors.nike.com/sec-filings/all-sec-filings/content/0000320187-23-000039/nke-20230531.htm): FY2022/FY2023 statements, pp. 55, 57–58; facilities/debt, Notes 5–6; commercial paper, p. 45; segment revenue, Note 15.
 - [FY2024 10-K](https://investors.nike.com/sec-filings/all-sec-filings/content/0000320187-24-000044/nke-20240531.htm): historical depreciation and FY2024 facility/debt details, pp. 60, 72–73.
 - [FY2025 10-K](https://investors.nike.com/sec-filings/all-sec-filings/content/0000320187-25-000047/nke-20250531.htm): FY2024/FY2025 statements, pp. 56, 58–59; FY2023 comparative D&A; Notes 5–6.
-- [FY2026 10-K](https://investors.nike.com/sec-filings/all-sec-filings/content/0000320187-26-000088/nke-20260531.htm): FY2026 statements, pp. 55, 57–58; recovery/receivable, Note 1 p. 61; receivables/inventory policy p. 63; facilities/debt, Notes 5–6 pp. 69–70; segment revenue p. 36.
+- [FY2026 10-K](https://investors.nike.com/sec-filings/all-sec-filings/content/0000320187-26-000088/nke-20260531.htm): FY2026 statements, pp. 55, 57–58; recovery/receivable, Note 1 p. 61; receivables/inventory policy p. 63; facilities/debt, Notes 5–6 pp. 69–70; segment revenue, Note 15 pp. 86–87.
 - [FY2027 Q1 10-Q](https://investors.nike.com/sec-filings/all-sec-filings/content/0000320187-26-000193/nke-20260831.htm): quarterly statements, pp. 1, 3–4; segment revenue p. 25; liquidity p. 34. Printed p. 34 is [physical PDF page 36](https://investors.nike.com/sec-filings/all-sec-filings/content/0000320187-26-000193/0000320187-26-000193.pdf#page=36).
 
 ## Validation and files

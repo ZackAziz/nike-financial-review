@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "checks": 2356,
+  "scenarios": 200,
+  "formulaDialogs": 30,
+  "widths": [
+    390,
+    1440
+  ],
+  "errors": []
+}

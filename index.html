@@ -28,7 +28,7 @@
 <section id="methodology" role="tabpanel" aria-labelledby="tab-methodology" hidden><div class="section-heading"><div><h2>Open the model. Follow every assumption.</h2><p>Reported facts, analyst adjustments and hypothetical inputs are kept separate. Dollar figures are stored in $B at original million-dollar precision.</p></div><span class="pill reported">PUBLIC FILINGS · AUDIT TRAIL</span></div><div class="grid"><article class="card full"><h3>Calculation explorer</h3><div id="formula-explorer"></div></article><article class="card full"><h3>Source-tagged financial inputs</h3><p class="small muted">Select a period and statement. Source links identify the filing, fiscal period and printed page. Presentation-derived values are labeled separately.</p><div class="audit-select"><div><label for="audit-period">Period</label><select id="audit-period"><option>FY2022</option><option>FY2023</option><option>FY2024</option><option>FY2025</option><option selected>FY2026</option><option>FY2027 Q1</option></select></div><div><label for="audit-group">Statement</label><select id="audit-group"><option value="income">Income statement</option><option value="balance">Balance sheet</option><option value="cashFlow">Cash flow</option><option value="segments">Segment revenue</option></select></div></div><div id="source-audit" class="table-scroll"></div></article><article class="card full"><h3>Data notes & model limitations</h3><ol id="method-list" class="method-list"></ol></article><article class="card full"><h3>Accounting considerations</h3><div id="accounting-notes"></div></article></div></section>
 <aside class="card note-strip"><details open><summary><span>Key accounting notes & live model checks</span><span class="small muted" id="check-summary"></span></summary><div class="note-columns"><ol><li><b>Receivables proxy.</b> Adjusted receivable days use total revenue and may include unquantified non-trade balances.</li><li><b>Specified normalization.</b> Removes only the FY2026 tariff-recovery COGS benefit; does not restate reported history.</li><li><b>Operating leverage.</b> Overhead and D&A are fixed by default. Forward cash flow is simplified; other balances are held constant.</li><li><b>Liquidity is not all cash.</b> Facilities are conditional and expire; refinancing is an explicit assumption.</li></ol><div id="model-checks" class="checks"></div></div></details></aside>
 </main>
-<footer class="wrap foot"><div class="foot-top"><div><b>Built by Zack Aziz</b><span id="linkedin-footer"></span><br><span>Independent portfolio research · Last updated October 14, 2026</span></div><div class="key-legend"><span><i class="legend-dot h"></i>Reported history</span><span><i class="legend-dot s"></i>Hypothetical scenario</span></div></div><div id="filing-links" class="source-links"></div><p style="margin-top:16px">Illustrative model built on public information. Not investment advice, a statement of what Nike should do, Nike guidance, or audit assurance. No Nike affiliation.</p><p class="small">Historical FCF = operating cash flow less cash capital expenditure. Forward FCF is a simplified proxy. Figures may not add because of display rounding. Nothing you enter is sent to a server.</p></footer>
+<footer class="wrap foot"><div class="foot-top"><div><b>Built by Zack Aziz</b><span id="linkedin-footer"></span><br><span>Independent portfolio research · Last updated October 16, 2026</span></div><div class="key-legend"><span><i class="legend-dot h"></i>Reported history</span><span><i class="legend-dot s"></i>Hypothetical scenario</span></div></div><div id="filing-links" class="source-links"></div><p style="margin-top:16px">Illustrative model built on public information. Not investment advice, a statement of what Nike should do, Nike guidance, or audit assurance. No Nike affiliation.</p><p class="small">Historical FCF = operating cash flow less cash capital expenditure. Forward FCF is a simplified proxy. Figures may not add because of display rounding. Nothing you enter is sent to a server.</p></footer>
 <dialog id="trace-dialog" aria-labelledby="trace-title"><button class="btn close" id="close-trace">Close</button><h2 id="trace-title"></h2><div id="trace-content"></div></dialog><div class="toast" id="toast" role="status" hidden></div>
 <noscript><p class="wrap alert">JavaScript is required to calculate scenarios. Public filing links remain in the source data inside this file.</p></noscript>
 <script>
@@ -37,7 +37,7 @@ const DATA = {
   "meta": {
     "title": "Nike interactive financial review",
     "author": "Zack Aziz",
-    "lastUpdated": "2026-10-14",
+    "lastUpdated": "2026-10-16",
     "unit": "USD billions",
     "precision": 3,
     "annualYearEnd": "May 31",
@@ -738,7 +738,7 @@ const DATA = {
           "source": {
             "filing": "A",
             "period": "FY2022",
-            "printedPage": 44,
+            "printedPage": 45,
             "line": "Commercial paper program capacity"
           }
         },
@@ -749,7 +749,7 @@ const DATA = {
           "source": {
             "filing": "A",
             "period": "FY2022",
-            "printedPage": 44,
+            "printedPage": 45,
             "line": "Commercial paper outstanding"
           }
         }
@@ -1556,7 +1556,7 @@ const DATA = {
           "source": {
             "filing": "A",
             "period": "FY2023",
-            "printedPage": 44,
+            "printedPage": 45,
             "line": "Commercial paper program capacity"
           }
         },
@@ -1567,7 +1567,7 @@ const DATA = {
           "source": {
             "filing": "A",
             "period": "FY2023",
-            "printedPage": 44,
+            "printedPage": 45,
             "line": "Commercial paper outstanding"
           }
         }
@@ -2197,7 +2197,7 @@ const DATA = {
           "source": {
             "filing": "C",
             "period": "FY2024",
-            "printedPage": 36,
+            "printedPage": 87,
             "line": "northAmerica",
             "note": "15"
           }
@@ -2209,7 +2209,7 @@ const DATA = {
           "source": {
             "filing": "C",
             "period": "FY2024",
-            "printedPage": 36,
+            "printedPage": 87,
             "line": "emea",
             "note": "15"
           }
@@ -2221,7 +2221,7 @@ const DATA = {
           "source": {
             "filing": "C",
             "period": "FY2024",
-            "printedPage": 36,
+            "printedPage": 87,
             "line": "greaterChina",
             "note": "15"
           }
@@ -2233,7 +2233,7 @@ const DATA = {
           "source": {
             "filing": "C",
             "period": "FY2024",
-            "printedPage": 36,
+            "printedPage": 87,
             "line": "apla",
             "note": "15"
           }
@@ -2245,7 +2245,7 @@ const DATA = {
           "source": {
             "filing": "C",
             "period": "FY2024",
-            "printedPage": 36,
+            "printedPage": 87,
             "line": "globalBrandDivisions",
             "note": "15"
           }
@@ -2257,7 +2257,7 @@ const DATA = {
           "source": {
             "filing": "C",
             "period": "FY2024",
-            "printedPage": 36,
+            "printedPage": 87,
             "line": "converse",
             "note": "15"
           }
@@ -2269,7 +2269,7 @@ const DATA = {
           "source": {
             "filing": "C",
             "period": "FY2024",
-            "printedPage": 36,
+            "printedPage": 87,
             "line": "corporate",
             "note": "15"
           }
@@ -3000,7 +3000,7 @@ const DATA = {
           "source": {
             "filing": "C",
             "period": "FY2025",
-            "printedPage": 36,
+            "printedPage": 86,
             "line": "northAmerica",
             "note": "15"
           }
@@ -3012,7 +3012,7 @@ const DATA = {
           "source": {
             "filing": "C",
             "period": "FY2025",
-            "printedPage": 36,
+            "printedPage": 86,
             "line": "emea",
             "note": "15"
           }
@@ -3024,7 +3024,7 @@ const DATA = {
           "source": {
             "filing": "C",
             "period": "FY2025",
-            "printedPage": 36,
+            "printedPage": 86,
             "line": "greaterChina",
             "note": "15"
           }
@@ -3036,7 +3036,7 @@ const DATA = {
           "source": {
             "filing": "C",
             "period": "FY2025",
-            "printedPage": 36,
+            "printedPage": 86,
             "line": "apla",
             "note": "15"
           }
@@ -3048,7 +3048,7 @@ const DATA = {
           "source": {
             "filing": "C",
             "period": "FY2025",
-            "printedPage": 36,
+            "printedPage": 86,
             "line": "globalBrandDivisions",
             "note": "15"
           }
@@ -3060,7 +3060,7 @@ const DATA = {
           "source": {
             "filing": "C",
             "period": "FY2025",
-            "printedPage": 36,
+            "printedPage": 86,
             "line": "converse",
             "note": "15"
           }
@@ -3072,7 +3072,7 @@ const DATA = {
           "source": {
             "filing": "C",
             "period": "FY2025",
-            "printedPage": 36,
+            "printedPage": 86,
             "line": "corporate",
             "note": "15"
           }
@@ -3789,7 +3789,7 @@ const DATA = {
           "source": {
             "filing": "C",
             "period": "FY2026",
-            "printedPage": 36,
+            "printedPage": 86,
             "line": "northAmerica",
             "note": "15"
           }
@@ -3801,7 +3801,7 @@ const DATA = {
           "source": {
             "filing": "C",
             "period": "FY2026",
-            "printedPage": 36,
+            "printedPage": 86,
             "line": "emea",
             "note": "15"
           }
@@ -3813,7 +3813,7 @@ const DATA = {
           "source": {
             "filing": "C",
             "period": "FY2026",
-            "printedPage": 36,
+            "printedPage": 86,
             "line": "greaterChina",
             "note": "15"
           }
@@ -3825,7 +3825,7 @@ const DATA = {
           "source": {
             "filing": "C",
             "period": "FY2026",
-            "printedPage": 36,
+            "printedPage": 86,
             "line": "apla",
             "note": "15"
           }
@@ -3837,7 +3837,7 @@ const DATA = {
           "source": {
             "filing": "C",
             "period": "FY2026",
-            "printedPage": 36,
+            "printedPage": 86,
             "line": "globalBrandDivisions",
             "note": "15"
           }
@@ -3849,7 +3849,7 @@ const DATA = {
           "source": {
             "filing": "C",
             "period": "FY2026",
-            "printedPage": 36,
+            "printedPage": 86,
             "line": "converse",
             "note": "15"
           }
@@ -3861,7 +3861,7 @@ const DATA = {
           "source": {
             "filing": "C",
             "period": "FY2026",
-            "printedPage": 36,
+            "printedPage": 86,
             "line": "corporate",
             "note": "15"
           }
@@ -4569,8 +4569,9 @@ const DATA = {
         "source": {
           "filing": "Q",
           "period": "FY2027 Q1",
-          "printedPage": 25,
-          "line": "northAmerica"
+          "printedPage": 16,
+          "line": "northAmerica",
+          "note": "10"
         }
       },
       "emea": {
@@ -4580,8 +4581,9 @@ const DATA = {
         "source": {
           "filing": "Q",
           "period": "FY2027 Q1",
-          "printedPage": 25,
-          "line": "emea"
+          "printedPage": 16,
+          "line": "emea",
+          "note": "10"
         }
       },
       "greaterChina": {
@@ -4591,8 +4593,9 @@ const DATA = {
         "source": {
           "filing": "Q",
           "period": "FY2027 Q1",
-          "printedPage": 25,
-          "line": "greaterChina"
+          "printedPage": 16,
+          "line": "greaterChina",
+          "note": "10"
         }
       },
       "apla": {
@@ -4602,8 +4605,9 @@ const DATA = {
         "source": {
           "filing": "Q",
           "period": "FY2027 Q1",
-          "printedPage": 25,
-          "line": "apla"
+          "printedPage": 16,
+          "line": "apla",
+          "note": "10"
         }
       },
       "globalBrandDivisions": {
@@ -4613,8 +4617,9 @@ const DATA = {
         "source": {
           "filing": "Q",
           "period": "FY2027 Q1",
-          "printedPage": 25,
-          "line": "globalBrandDivisions"
+          "printedPage": 16,
+          "line": "globalBrandDivisions",
+          "note": "10"
         }
       },
       "converse": {
@@ -4624,8 +4629,9 @@ const DATA = {
         "source": {
           "filing": "Q",
           "period": "FY2027 Q1",
-          "printedPage": 25,
-          "line": "converse"
+          "printedPage": 16,
+          "line": "converse",
+          "note": "10"
         }
       },
       "corporate": {
@@ -4635,8 +4641,9 @@ const DATA = {
         "source": {
           "filing": "Q",
           "period": "FY2027 Q1",
-          "printedPage": 25,
-          "line": "corporate"
+          "printedPage": 16,
+          "line": "corporate",
+          "note": "10"
         }
       }
     },

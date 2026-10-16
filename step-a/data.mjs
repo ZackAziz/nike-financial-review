@@ -3,7 +3,7 @@ export const DATA = {
   "meta": {
     "title": "Nike interactive financial review",
     "author": "Zack Aziz",
-    "lastUpdated": "2026-10-14",
+    "lastUpdated": "2026-10-16",
     "unit": "USD billions",
     "precision": 3,
     "annualYearEnd": "May 31",
@@ -704,7 +704,7 @@ export const DATA = {
           "source": {
             "filing": "A",
             "period": "FY2022",
-            "printedPage": 44,
+            "printedPage": 45,
             "line": "Commercial paper program capacity"
           }
         },
@@ -715,7 +715,7 @@ export const DATA = {
           "source": {
             "filing": "A",
             "period": "FY2022",
-            "printedPage": 44,
+            "printedPage": 45,
             "line": "Commercial paper outstanding"
           }
         }
@@ -1522,7 +1522,7 @@ export const DATA = {
           "source": {
             "filing": "A",
             "period": "FY2023",
-            "printedPage": 44,
+            "printedPage": 45,
             "line": "Commercial paper program capacity"
           }
         },
@@ -1533,7 +1533,7 @@ export const DATA = {
           "source": {
             "filing": "A",
             "period": "FY2023",
-            "printedPage": 44,
+            "printedPage": 45,
             "line": "Commercial paper outstanding"
           }
         }
@@ -2163,7 +2163,7 @@ export const DATA = {
           "source": {
             "filing": "C",
             "period": "FY2024",
-            "printedPage": 36,
+            "printedPage": 87,
             "line": "northAmerica",
             "note": "15"
           }
@@ -2175,7 +2175,7 @@ export const DATA = {
           "source": {
             "filing": "C",
             "period": "FY2024",
-            "printedPage": 36,
+            "printedPage": 87,
             "line": "emea",
             "note": "15"
           }
@@ -2187,7 +2187,7 @@ export const DATA = {
           "source": {
             "filing": "C",
             "period": "FY2024",
-            "printedPage": 36,
+            "printedPage": 87,
             "line": "greaterChina",
             "note": "15"
           }
@@ -2199,7 +2199,7 @@ export const DATA = {
           "source": {
             "filing": "C",
             "period": "FY2024",
-            "printedPage": 36,
+            "printedPage": 87,
             "line": "apla",
             "note": "15"
           }
@@ -2211,7 +2211,7 @@ export const DATA = {
           "source": {
             "filing": "C",
             "period": "FY2024",
-            "printedPage": 36,
+            "printedPage": 87,
             "line": "globalBrandDivisions",
             "note": "15"
           }
@@ -2223,7 +2223,7 @@ export const DATA = {
           "source": {
             "filing": "C",
             "period": "FY2024",
-            "printedPage": 36,
+            "printedPage": 87,
             "line": "converse",
             "note": "15"
           }
@@ -2235,7 +2235,7 @@ export const DATA = {
           "source": {
             "filing": "C",
             "period": "FY2024",
-            "printedPage": 36,
+            "printedPage": 87,
             "line": "corporate",
             "note": "15"
           }
@@ -2966,7 +2966,7 @@ export const DATA = {
           "source": {
             "filing": "C",
             "period": "FY2025",
-            "printedPage": 36,
+            "printedPage": 86,
             "line": "northAmerica",
             "note": "15"
           }
@@ -2978,7 +2978,7 @@ export const DATA = {
           "source": {
             "filing": "C",
             "period": "FY2025",
-            "printedPage": 36,
+            "printedPage": 86,
             "line": "emea",
             "note": "15"
           }
@@ -2990,7 +2990,7 @@ export const DATA = {
           "source": {
             "filing": "C",
             "period": "FY2025",
-            "printedPage": 36,
+            "printedPage": 86,
             "line": "greaterChina",
             "note": "15"
           }
@@ -3002,7 +3002,7 @@ export const DATA = {
           "source": {
             "filing": "C",
             "period": "FY2025",
-            "printedPage": 36,
+            "printedPage": 86,
             "line": "apla",
             "note": "15"
           }
@@ -3014,7 +3014,7 @@ export const DATA = {
           "source": {
             "filing": "C",
             "period": "FY2025",
-            "printedPage": 36,
+            "printedPage": 86,
             "line": "globalBrandDivisions",
             "note": "15"
           }
@@ -3026,7 +3026,7 @@ export const DATA = {
           "source": {
             "filing": "C",
             "period": "FY2025",
-            "printedPage": 36,
+            "printedPage": 86,
             "line": "converse",
             "note": "15"
           }
@@ -3038,7 +3038,7 @@ export const DATA = {
           "source": {
             "filing": "C",
             "period": "FY2025",
-            "printedPage": 36,
+            "printedPage": 86,
             "line": "corporate",
             "note": "15"
           }
@@ -3755,7 +3755,7 @@ export const DATA = {
           "source": {
             "filing": "C",
             "period": "FY2026",
-            "printedPage": 36,
+            "printedPage": 86,
             "line": "northAmerica",
             "note": "15"
           }
@@ -3767,7 +3767,7 @@ export const DATA = {
           "source": {
             "filing": "C",
             "period": "FY2026",
-            "printedPage": 36,
+            "printedPage": 86,
             "line": "emea",
             "note": "15"
           }
@@ -3779,7 +3779,7 @@ export const DATA = {
           "source": {
             "filing": "C",
             "period": "FY2026",
-            "printedPage": 36,
+            "printedPage": 86,
             "line": "greaterChina",
             "note": "15"
           }
@@ -3791,7 +3791,7 @@ export const DATA = {
           "source": {
             "filing": "C",
             "period": "FY2026",
-            "printedPage": 36,
+            "printedPage": 86,
             "line": "apla",
             "note": "15"
           }
@@ -3803,7 +3803,7 @@ export const DATA = {
           "source": {
             "filing": "C",
             "period": "FY2026",
-            "printedPage": 36,
+            "printedPage": 86,
             "line": "globalBrandDivisions",
             "note": "15"
           }
@@ -3815,7 +3815,7 @@ export const DATA = {
           "source": {
             "filing": "C",
             "period": "FY2026",
-            "printedPage": 36,
+            "printedPage": 86,
             "line": "converse",
             "note": "15"
           }
@@ -3827,7 +3827,7 @@ export const DATA = {
           "source": {
             "filing": "C",
             "period": "FY2026",
-            "printedPage": 36,
+            "printedPage": 86,
             "line": "corporate",
             "note": "15"
           }
@@ -4535,8 +4535,9 @@ export const DATA = {
         "source": {
           "filing": "Q",
           "period": "FY2027 Q1",
-          "printedPage": 25,
-          "line": "northAmerica"
+          "printedPage": 16,
+          "line": "northAmerica",
+          "note": "10"
         }
       },
       "emea": {
@@ -4546,8 +4547,9 @@ export const DATA = {
         "source": {
           "filing": "Q",
           "period": "FY2027 Q1",
-          "printedPage": 25,
-          "line": "emea"
+          "printedPage": 16,
+          "line": "emea",
+          "note": "10"
         }
       },
       "greaterChina": {
@@ -4557,8 +4559,9 @@ export const DATA = {
         "source": {
           "filing": "Q",
           "period": "FY2027 Q1",
-          "printedPage": 25,
-          "line": "greaterChina"
+          "printedPage": 16,
+          "line": "greaterChina",
+          "note": "10"
         }
       },
       "apla": {
@@ -4568,8 +4571,9 @@ export const DATA = {
         "source": {
           "filing": "Q",
           "period": "FY2027 Q1",
-          "printedPage": 25,
-          "line": "apla"
+          "printedPage": 16,
+          "line": "apla",
+          "note": "10"
         }
       },
       "globalBrandDivisions": {
@@ -4579,8 +4583,9 @@ export const DATA = {
         "source": {
           "filing": "Q",
           "period": "FY2027 Q1",
-          "printedPage": 25,
-          "line": "globalBrandDivisions"
+          "printedPage": 16,
+          "line": "globalBrandDivisions",
+          "note": "10"
         }
       },
       "converse": {
@@ -4590,8 +4595,9 @@ export const DATA = {
         "source": {
           "filing": "Q",
           "period": "FY2027 Q1",
-          "printedPage": 25,
-          "line": "converse"
+          "printedPage": 16,
+          "line": "converse",
+          "note": "10"
         }
       },
       "corporate": {
@@ -4601,8 +4607,9 @@ export const DATA = {
         "source": {
           "filing": "Q",
           "period": "FY2027 Q1",
-          "printedPage": 25,
-          "line": "corporate"
+          "printedPage": 16,
+          "line": "corporate",
+          "note": "10"
         }
       }
     },

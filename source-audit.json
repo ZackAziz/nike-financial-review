@@ -1,0 +1,6492 @@
+[
+  {
+    "path": "FY2022.income.revenue",
+    "value": 46.71,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 55,
+      "line": "revenue"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      55,
+      78,
+      83,
+      86
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2022.income.cogs",
+    "value": 25.231,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 55,
+      "line": "cogs"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      55,
+      78
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2022.income.grossProfit",
+    "value": 21.479,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 55,
+      "line": "grossProfit"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      55
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2022.income.demandCreation",
+    "value": 3.85,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 55,
+      "line": "demandCreation"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      55,
+      62,
+      78
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2022.income.operatingOverhead",
+    "value": 10.954,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 55,
+      "line": "operatingOverhead"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      55
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2022.income.sga",
+    "value": 14.804,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 55,
+      "line": "sga"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      55
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2022.income.netInterestExpense",
+    "value": 0.205,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 55,
+      "line": "netInterestExpense"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      55,
+      78,
+      86
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2022.income.otherExpense",
+    "value": -0.181,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 55,
+      "line": "otherExpense"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      55,
+      78
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2022.income.pretaxIncome",
+    "value": 6.651,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 55,
+      "line": "pretaxIncome"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      55,
+      72,
+      86
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2022.income.taxExpense",
+    "value": 0.605,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 55,
+      "line": "taxExpense"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      55,
+      72
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2022.income.netIncome",
+    "value": 6.046,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 55,
+      "line": "netIncome"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      55,
+      56,
+      58,
+      59,
+      77
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2022.balance.cash",
+    "value": 8.574,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 57,
+      "line": "cash"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2022.balance.shortTermInvestments",
+    "value": 4.423,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 57,
+      "line": "shortTermInvestments"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2022.balance.reportedReceivables",
+    "value": 4.667,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 57,
+      "line": "reportedReceivables"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57,
+      87
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2022.balance.inventory",
+    "value": 8.42,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 57,
+      "line": "inventory"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57,
+      87
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2022.balance.otherCurrentAssets",
+    "value": 2.129,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 57,
+      "line": "otherCurrentAssets"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2022.balance.currentAssets",
+    "value": 28.213,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 57,
+      "line": "currentAssets"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2022.balance.accountsPayable",
+    "value": 3.358,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 57,
+      "line": "accountsPayable"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2022.balance.accruedLiabilities",
+    "value": 6.22,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 57,
+      "line": "accruedLiabilities"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57,
+      67
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2022.balance.taxPayable",
+    "value": 0.222,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 57,
+      "line": "taxPayable"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2022.balance.notesPayable",
+    "value": 0.01,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 57,
+      "line": "notesPayable"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2022.balance.currentDebt",
+    "value": 0.5,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 57,
+      "line": "currentDebt"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57,
+      71
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2022.balance.currentLeaseLiabilities",
+    "value": 0.42,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 57,
+      "line": "currentLeaseLiabilities"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2022.balance.currentLiabilities",
+    "value": 10.73,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 57,
+      "line": "currentLiabilities"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2022.balance.longTermDebt",
+    "value": 8.92,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 57,
+      "line": "longTermDebt"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57,
+      71
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2022.balance.noncurrentLeaseLiabilities",
+    "value": 2.777,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 57,
+      "line": "noncurrentLeaseLiabilities"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2022.balance.otherNoncurrentLiabilities",
+    "value": 2.613,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 57,
+      "line": "otherNoncurrentLiabilities"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2022.balance.equity",
+    "value": 15.281,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 57,
+      "line": "equity"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57,
+      59
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2022.balance.assets",
+    "value": 40.321,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 57,
+      "line": "assets"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2022.cashFlow.depreciationLine",
+    "value": 0.717,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 58,
+      "line": "depreciationLine"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58,
+      86
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2022.cashFlow.deferredTax",
+    "value": -0.65,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 58,
+      "line": "deferredTax"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58,
+      72
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2022.cashFlow.stockCompensation",
+    "value": 0.638,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 58,
+      "line": "stockCompensation"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2022.cashFlow.impairmentAmortizationOther",
+    "value": 0.123,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 58,
+      "line": "impairmentAmortizationOther"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2022.cashFlow.noncashFX",
+    "value": -0.026,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 58,
+      "line": "noncashFX"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2022.cashFlow.receivablesCashEffect",
+    "value": -0.504,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 58,
+      "line": "receivablesCashEffect"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2022.cashFlow.inventoryCashEffect",
+    "value": -1.676,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 58,
+      "line": "inventoryCashEffect"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2022.cashFlow.otherAssetsCashEffect",
+    "value": -0.845,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 58,
+      "line": "otherAssetsCashEffect"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2022.cashFlow.otherLiabilitiesCashEffect",
+    "value": 1.365,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 58,
+      "line": "otherLiabilitiesCashEffect"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2022.cashFlow.cfo",
+    "value": 5.188,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 58,
+      "line": "cfo"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2022.cashFlow.capex",
+    "value": 0.758,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 58,
+      "line": "capex"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": []
+  },
+  {
+    "path": "FY2022.cashFlow.buybacks",
+    "value": 4.014,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 58,
+      "line": "buybacks"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": []
+  },
+  {
+    "path": "FY2022.cashFlow.dividends",
+    "value": 1.837,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 58,
+      "line": "dividends"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": []
+  },
+  {
+    "path": "FY2022.cashFlow.cashInterestPaid",
+    "value": 0.29,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 58,
+      "line": "cashInterestPaid"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2022.cashFlow.da",
+    "value": null,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 58,
+      "line": "Depreciation and amortization"
+    },
+    "status": "VERIFY retained"
+  },
+  {
+    "path": "FY2022.segments.northAmerica",
+    "status": "MATCH",
+    "value": 18.353,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 86,
+      "line": "northAmerica",
+      "note": "15"
+    },
+    "matchingPages": [
+      86
+    ]
+  },
+  {
+    "path": "FY2022.segments.emea",
+    "status": "MATCH",
+    "value": 12.479,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 86,
+      "line": "emea",
+      "note": "15"
+    },
+    "matchingPages": [
+      86
+    ]
+  },
+  {
+    "path": "FY2022.segments.greaterChina",
+    "status": "MATCH",
+    "value": 7.547,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 86,
+      "line": "greaterChina",
+      "note": "15"
+    },
+    "matchingPages": [
+      86
+    ]
+  },
+  {
+    "path": "FY2022.segments.apla",
+    "status": "MATCH",
+    "value": 5.955,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 86,
+      "line": "apla",
+      "note": "15"
+    },
+    "matchingPages": [
+      86
+    ]
+  },
+  {
+    "path": "FY2022.segments.globalBrandDivisions",
+    "status": "MATCH",
+    "value": 0.102,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 86,
+      "line": "globalBrandDivisions",
+      "note": "15"
+    },
+    "matchingPages": [
+      86
+    ]
+  },
+  {
+    "path": "FY2022.segments.converse",
+    "status": "MATCH",
+    "value": 2.346,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 86,
+      "line": "converse",
+      "note": "15"
+    },
+    "matchingPages": [
+      86
+    ]
+  },
+  {
+    "path": "FY2022.segments.corporate",
+    "status": "MATCH",
+    "value": -0.072,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 86,
+      "line": "corporate",
+      "note": "15"
+    },
+    "matchingPages": [
+      86
+    ]
+  },
+  {
+    "path": "FY2023.income.revenue",
+    "value": 51.217,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 55,
+      "line": "revenue"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      55,
+      78,
+      83,
+      86
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2023.income.cogs",
+    "value": 28.925,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 55,
+      "line": "cogs"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      55,
+      78
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2023.income.grossProfit",
+    "value": 22.292,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 55,
+      "line": "grossProfit"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      55
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2023.income.demandCreation",
+    "value": 4.06,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 55,
+      "line": "demandCreation"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      55,
+      62,
+      78
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2023.income.operatingOverhead",
+    "value": 12.317,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 55,
+      "line": "operatingOverhead"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      55
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2023.income.sga",
+    "value": 16.377,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 55,
+      "line": "sga"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      55
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2023.income.netInterestExpense",
+    "value": -0.006,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 55,
+      "line": "netInterestExpense"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      55,
+      78,
+      86
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2023.income.otherExpense",
+    "value": -0.28,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 55,
+      "line": "otherExpense"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      55,
+      78
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2023.income.pretaxIncome",
+    "value": 6.201,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 55,
+      "line": "pretaxIncome"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      55,
+      72,
+      86
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2023.income.taxExpense",
+    "value": 1.131,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 55,
+      "line": "taxExpense"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      55,
+      72
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2023.income.netIncome",
+    "value": 5.07,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 55,
+      "line": "netIncome"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      55,
+      56,
+      58,
+      59,
+      77
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2023.balance.cash",
+    "value": 7.441,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 57,
+      "line": "cash"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2023.balance.shortTermInvestments",
+    "value": 3.234,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 57,
+      "line": "shortTermInvestments"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2023.balance.reportedReceivables",
+    "value": 4.131,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 57,
+      "line": "reportedReceivables"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57,
+      87
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2023.balance.inventory",
+    "value": 8.454,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 57,
+      "line": "inventory"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57,
+      87
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2023.balance.otherCurrentAssets",
+    "value": 1.942,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 57,
+      "line": "otherCurrentAssets"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2023.balance.currentAssets",
+    "value": 25.202,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 57,
+      "line": "currentAssets"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2023.balance.accountsPayable",
+    "value": 2.862,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 57,
+      "line": "accountsPayable"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2023.balance.accruedLiabilities",
+    "value": 5.723,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 57,
+      "line": "accruedLiabilities"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57,
+      67
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2023.balance.taxPayable",
+    "value": 0.24,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 57,
+      "line": "taxPayable"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2023.balance.notesPayable",
+    "value": 0.006,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 57,
+      "line": "notesPayable"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2023.balance.currentDebt",
+    "value": 0.0,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 57,
+      "line": "currentDebt"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57,
+      71
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2023.balance.currentLeaseLiabilities",
+    "value": 0.425,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 57,
+      "line": "currentLeaseLiabilities"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2023.balance.currentLiabilities",
+    "value": 9.256,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 57,
+      "line": "currentLiabilities"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2023.balance.longTermDebt",
+    "value": 8.927,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 57,
+      "line": "longTermDebt"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57,
+      71
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2023.balance.noncurrentLeaseLiabilities",
+    "value": 2.786,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 57,
+      "line": "noncurrentLeaseLiabilities"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2023.balance.otherNoncurrentLiabilities",
+    "value": 2.558,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 57,
+      "line": "otherNoncurrentLiabilities"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2023.balance.equity",
+    "value": 14.004,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 57,
+      "line": "equity"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57,
+      59
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2023.balance.assets",
+    "value": 37.531,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 57,
+      "line": "assets"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2023.cashFlow.depreciationLine",
+    "value": 0.703,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 58,
+      "line": "depreciationLine"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58,
+      86
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2023.cashFlow.deferredTax",
+    "value": -0.117,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 58,
+      "line": "deferredTax"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58,
+      72
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2023.cashFlow.stockCompensation",
+    "value": 0.755,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 58,
+      "line": "stockCompensation"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2023.cashFlow.impairmentAmortizationOther",
+    "value": 0.156,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 58,
+      "line": "impairmentAmortizationOther"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2023.cashFlow.noncashFX",
+    "value": -0.213,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 58,
+      "line": "noncashFX"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2023.cashFlow.receivablesCashEffect",
+    "value": 0.489,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 58,
+      "line": "receivablesCashEffect"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2023.cashFlow.inventoryCashEffect",
+    "value": -0.133,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 58,
+      "line": "inventoryCashEffect"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2023.cashFlow.otherAssetsCashEffect",
+    "value": -0.644,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 58,
+      "line": "otherAssetsCashEffect"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2023.cashFlow.otherLiabilitiesCashEffect",
+    "value": -0.225,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 58,
+      "line": "otherLiabilitiesCashEffect"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2023.cashFlow.cfo",
+    "value": 5.841,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 58,
+      "line": "cfo"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2023.cashFlow.capex",
+    "value": 0.969,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 58,
+      "line": "capex"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": []
+  },
+  {
+    "path": "FY2023.cashFlow.buybacks",
+    "value": 5.48,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 58,
+      "line": "buybacks"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": []
+  },
+  {
+    "path": "FY2023.cashFlow.dividends",
+    "value": 2.012,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 58,
+      "line": "dividends"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": []
+  },
+  {
+    "path": "FY2023.cashFlow.cashInterestPaid",
+    "value": 0.347,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 58,
+      "line": "cashInterestPaid"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2023.cashFlow.da",
+    "value": 0.703,
+    "source": {
+      "filing": "B",
+      "period": "FY2023",
+      "printedPage": 59,
+      "line": "Depreciation and amortization"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      59,
+      86
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2023.segments.northAmerica",
+    "status": "MATCH",
+    "value": 21.608,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 86,
+      "line": "northAmerica",
+      "note": "15"
+    },
+    "matchingPages": [
+      86
+    ]
+  },
+  {
+    "path": "FY2023.segments.emea",
+    "status": "MATCH",
+    "value": 13.418,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 86,
+      "line": "emea",
+      "note": "15"
+    },
+    "matchingPages": [
+      86
+    ]
+  },
+  {
+    "path": "FY2023.segments.greaterChina",
+    "status": "MATCH",
+    "value": 7.248,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 86,
+      "line": "greaterChina",
+      "note": "15"
+    },
+    "matchingPages": [
+      86
+    ]
+  },
+  {
+    "path": "FY2023.segments.apla",
+    "status": "MATCH",
+    "value": 6.431,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 86,
+      "line": "apla",
+      "note": "15"
+    },
+    "matchingPages": [
+      86
+    ]
+  },
+  {
+    "path": "FY2023.segments.globalBrandDivisions",
+    "status": "MATCH",
+    "value": 0.058,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 86,
+      "line": "globalBrandDivisions",
+      "note": "15"
+    },
+    "matchingPages": [
+      86
+    ]
+  },
+  {
+    "path": "FY2023.segments.converse",
+    "status": "MATCH",
+    "value": 2.427,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 86,
+      "line": "converse",
+      "note": "15"
+    },
+    "matchingPages": [
+      86
+    ]
+  },
+  {
+    "path": "FY2023.segments.corporate",
+    "status": "MATCH",
+    "value": 0.027,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 86,
+      "line": "corporate",
+      "note": "15"
+    },
+    "matchingPages": [
+      86
+    ]
+  },
+  {
+    "path": "FY2024.income.revenue",
+    "value": 51.362,
+    "source": {
+      "filing": "B",
+      "period": "FY2024",
+      "printedPage": 56,
+      "line": "revenue"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      56,
+      82,
+      85
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2024.income.cogs",
+    "value": 28.475,
+    "source": {
+      "filing": "B",
+      "period": "FY2024",
+      "printedPage": 56,
+      "line": "cogs"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      56,
+      85
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2024.income.grossProfit",
+    "value": 22.887,
+    "source": {
+      "filing": "B",
+      "period": "FY2024",
+      "printedPage": 56,
+      "line": "grossProfit"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      56,
+      85
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2024.income.demandCreation",
+    "value": 4.285,
+    "source": {
+      "filing": "B",
+      "period": "FY2024",
+      "printedPage": 56,
+      "line": "demandCreation"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      56,
+      63,
+      85
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2024.income.operatingOverhead",
+    "value": 12.291,
+    "source": {
+      "filing": "B",
+      "period": "FY2024",
+      "printedPage": 56,
+      "line": "operatingOverhead"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      56,
+      85
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2024.income.sga",
+    "value": 16.576,
+    "source": {
+      "filing": "B",
+      "period": "FY2024",
+      "printedPage": 56,
+      "line": "sga"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      56,
+      85
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2024.income.netInterestExpense",
+    "value": -0.161,
+    "source": {
+      "filing": "B",
+      "period": "FY2024",
+      "printedPage": 56,
+      "line": "netInterestExpense"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      56,
+      85
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2024.income.otherExpense",
+    "value": -0.228,
+    "source": {
+      "filing": "B",
+      "period": "FY2024",
+      "printedPage": 56,
+      "line": "otherExpense"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      56
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2024.income.pretaxIncome",
+    "value": 6.7,
+    "source": {
+      "filing": "B",
+      "period": "FY2024",
+      "printedPage": 56,
+      "line": "pretaxIncome"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      56,
+      72,
+      85
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2024.income.taxExpense",
+    "value": 1.0,
+    "source": {
+      "filing": "B",
+      "period": "FY2024",
+      "printedPage": 56,
+      "line": "taxExpense"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      56,
+      72
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2024.income.netIncome",
+    "value": 5.7,
+    "source": {
+      "filing": "B",
+      "period": "FY2024",
+      "printedPage": 56,
+      "line": "netIncome"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      56,
+      57,
+      59,
+      60,
+      77
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2024.balance.cash",
+    "value": 9.86,
+    "source": {
+      "filing": "B",
+      "period": "FY2024",
+      "printedPage": 58,
+      "line": "cash"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2024.balance.shortTermInvestments",
+    "value": 1.722,
+    "source": {
+      "filing": "B",
+      "period": "FY2024",
+      "printedPage": 58,
+      "line": "shortTermInvestments"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2024.balance.reportedReceivables",
+    "value": 4.427,
+    "source": {
+      "filing": "B",
+      "period": "FY2024",
+      "printedPage": 58,
+      "line": "reportedReceivables"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2024.balance.inventory",
+    "value": 7.519,
+    "source": {
+      "filing": "B",
+      "period": "FY2024",
+      "printedPage": 58,
+      "line": "inventory"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58,
+      85
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2024.balance.otherCurrentAssets",
+    "value": 1.854,
+    "source": {
+      "filing": "B",
+      "period": "FY2024",
+      "printedPage": 58,
+      "line": "otherCurrentAssets"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2024.balance.currentAssets",
+    "value": 25.382,
+    "source": {
+      "filing": "B",
+      "period": "FY2024",
+      "printedPage": 58,
+      "line": "currentAssets"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2024.balance.accountsPayable",
+    "value": 2.851,
+    "source": {
+      "filing": "B",
+      "period": "FY2024",
+      "printedPage": 58,
+      "line": "accountsPayable"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2024.balance.accruedLiabilities",
+    "value": 5.725,
+    "source": {
+      "filing": "B",
+      "period": "FY2024",
+      "printedPage": 58,
+      "line": "accruedLiabilities"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58,
+      68
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2024.balance.taxPayable",
+    "value": 0.534,
+    "source": {
+      "filing": "B",
+      "period": "FY2024",
+      "printedPage": 58,
+      "line": "taxPayable"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2024.balance.notesPayable",
+    "value": 0.006,
+    "source": {
+      "filing": "B",
+      "period": "FY2024",
+      "printedPage": 58,
+      "line": "notesPayable"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2024.balance.currentDebt",
+    "value": 1.0,
+    "source": {
+      "filing": "B",
+      "period": "FY2024",
+      "printedPage": 58,
+      "line": "currentDebt"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58,
+      71
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2024.balance.currentLeaseLiabilities",
+    "value": 0.477,
+    "source": {
+      "filing": "B",
+      "period": "FY2024",
+      "printedPage": 58,
+      "line": "currentLeaseLiabilities"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2024.balance.currentLiabilities",
+    "value": 10.593,
+    "source": {
+      "filing": "B",
+      "period": "FY2024",
+      "printedPage": 58,
+      "line": "currentLiabilities"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2024.balance.longTermDebt",
+    "value": 7.903,
+    "source": {
+      "filing": "B",
+      "period": "FY2024",
+      "printedPage": 58,
+      "line": "longTermDebt"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58,
+      71
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2024.balance.noncurrentLeaseLiabilities",
+    "value": 2.566,
+    "source": {
+      "filing": "B",
+      "period": "FY2024",
+      "printedPage": 58,
+      "line": "noncurrentLeaseLiabilities"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2024.balance.otherNoncurrentLiabilities",
+    "value": 2.618,
+    "source": {
+      "filing": "B",
+      "period": "FY2024",
+      "printedPage": 58,
+      "line": "otherNoncurrentLiabilities"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2024.balance.equity",
+    "value": 14.43,
+    "source": {
+      "filing": "B",
+      "period": "FY2024",
+      "printedPage": 58,
+      "line": "equity"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58,
+      60
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2024.balance.assets",
+    "value": 38.11,
+    "source": {
+      "filing": "B",
+      "period": "FY2024",
+      "printedPage": 58,
+      "line": "assets"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2024.cashFlow.depreciationLine",
+    "value": 0.796,
+    "source": {
+      "filing": "B",
+      "period": "FY2024",
+      "printedPage": 59,
+      "line": "depreciationLine"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      59,
+      85
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2024.cashFlow.deferredTax",
+    "value": -0.497,
+    "source": {
+      "filing": "B",
+      "period": "FY2024",
+      "printedPage": 59,
+      "line": "deferredTax"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      59,
+      72
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2024.cashFlow.stockCompensation",
+    "value": 0.804,
+    "source": {
+      "filing": "B",
+      "period": "FY2024",
+      "printedPage": 59,
+      "line": "stockCompensation"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      59
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2024.cashFlow.impairmentAmortizationOther",
+    "value": 0.048,
+    "source": {
+      "filing": "B",
+      "period": "FY2024",
+      "printedPage": 59,
+      "line": "impairmentAmortizationOther"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      59
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2024.cashFlow.noncashFX",
+    "value": -0.138,
+    "source": {
+      "filing": "B",
+      "period": "FY2024",
+      "printedPage": 59,
+      "line": "noncashFX"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      59
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2024.cashFlow.receivablesCashEffect",
+    "value": -0.329,
+    "source": {
+      "filing": "B",
+      "period": "FY2024",
+      "printedPage": 59,
+      "line": "receivablesCashEffect"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      59
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2024.cashFlow.inventoryCashEffect",
+    "value": 0.908,
+    "source": {
+      "filing": "B",
+      "period": "FY2024",
+      "printedPage": 59,
+      "line": "inventoryCashEffect"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      59
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2024.cashFlow.otherAssetsCashEffect",
+    "value": -0.26,
+    "source": {
+      "filing": "B",
+      "period": "FY2024",
+      "printedPage": 59,
+      "line": "otherAssetsCashEffect"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      59
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2024.cashFlow.otherLiabilitiesCashEffect",
+    "value": 0.397,
+    "source": {
+      "filing": "B",
+      "period": "FY2024",
+      "printedPage": 59,
+      "line": "otherLiabilitiesCashEffect"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      59
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2024.cashFlow.cfo",
+    "value": 7.429,
+    "source": {
+      "filing": "B",
+      "period": "FY2024",
+      "printedPage": 59,
+      "line": "cfo"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      59
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2024.cashFlow.capex",
+    "value": 0.812,
+    "source": {
+      "filing": "B",
+      "period": "FY2024",
+      "printedPage": 59,
+      "line": "capex"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      59
+    ],
+    "candidates": []
+  },
+  {
+    "path": "FY2024.cashFlow.buybacks",
+    "value": 4.25,
+    "source": {
+      "filing": "B",
+      "period": "FY2024",
+      "printedPage": 59,
+      "line": "buybacks"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      59
+    ],
+    "candidates": []
+  },
+  {
+    "path": "FY2024.cashFlow.dividends",
+    "value": 2.169,
+    "source": {
+      "filing": "B",
+      "period": "FY2024",
+      "printedPage": 59,
+      "line": "dividends"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      59
+    ],
+    "candidates": []
+  },
+  {
+    "path": "FY2024.cashFlow.cashInterestPaid",
+    "value": 0.381,
+    "source": {
+      "filing": "B",
+      "period": "FY2024",
+      "printedPage": 59,
+      "line": "cashInterestPaid"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      59
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2024.cashFlow.da",
+    "value": 0.796,
+    "source": {
+      "filing": "B",
+      "period": "FY2024",
+      "printedPage": 59,
+      "line": "Depreciation and amortization"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      59,
+      85
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2024.segments.northAmerica",
+    "status": "MATCH",
+    "value": 21.396,
+    "source": {
+      "filing": "C",
+      "period": "FY2024",
+      "printedPage": 87,
+      "line": "northAmerica",
+      "note": "15"
+    },
+    "matchingPages": [
+      87
+    ]
+  },
+  {
+    "path": "FY2024.segments.emea",
+    "status": "MATCH",
+    "value": 13.607,
+    "source": {
+      "filing": "C",
+      "period": "FY2024",
+      "printedPage": 87,
+      "line": "emea",
+      "note": "15"
+    },
+    "matchingPages": [
+      87
+    ]
+  },
+  {
+    "path": "FY2024.segments.greaterChina",
+    "status": "MATCH",
+    "value": 7.545,
+    "source": {
+      "filing": "C",
+      "period": "FY2024",
+      "printedPage": 87,
+      "line": "greaterChina",
+      "note": "15"
+    },
+    "matchingPages": [
+      87
+    ]
+  },
+  {
+    "path": "FY2024.segments.apla",
+    "status": "MATCH",
+    "value": 6.729,
+    "source": {
+      "filing": "C",
+      "period": "FY2024",
+      "printedPage": 87,
+      "line": "apla",
+      "note": "15"
+    },
+    "matchingPages": [
+      87
+    ]
+  },
+  {
+    "path": "FY2024.segments.globalBrandDivisions",
+    "status": "MATCH",
+    "value": 0.045,
+    "source": {
+      "filing": "C",
+      "period": "FY2024",
+      "printedPage": 87,
+      "line": "globalBrandDivisions",
+      "note": "15"
+    },
+    "matchingPages": [
+      87
+    ]
+  },
+  {
+    "path": "FY2024.segments.converse",
+    "status": "MATCH",
+    "value": 2.082,
+    "source": {
+      "filing": "C",
+      "period": "FY2024",
+      "printedPage": 87,
+      "line": "converse",
+      "note": "15"
+    },
+    "matchingPages": [
+      87
+    ]
+  },
+  {
+    "path": "FY2024.segments.corporate",
+    "status": "MATCH",
+    "value": -0.042,
+    "source": {
+      "filing": "C",
+      "period": "FY2024",
+      "printedPage": 87,
+      "line": "corporate",
+      "note": "15"
+    },
+    "matchingPages": [
+      87
+    ]
+  },
+  {
+    "path": "FY2025.income.revenue",
+    "value": 46.309,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 56,
+      "line": "revenue"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      56,
+      82,
+      85
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2025.income.cogs",
+    "value": 26.519,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 56,
+      "line": "cogs"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      56,
+      85
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2025.income.grossProfit",
+    "value": 19.79,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 56,
+      "line": "grossProfit"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      56,
+      85
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2025.income.demandCreation",
+    "value": 4.689,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 56,
+      "line": "demandCreation"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      56,
+      63,
+      85
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2025.income.operatingOverhead",
+    "value": 11.399,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 56,
+      "line": "operatingOverhead"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      56,
+      85
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2025.income.sga",
+    "value": 16.088,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 56,
+      "line": "sga"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      56,
+      85
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2025.income.netInterestExpense",
+    "value": -0.107,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 56,
+      "line": "netInterestExpense"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      56,
+      85
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2025.income.otherExpense",
+    "value": -0.076,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 56,
+      "line": "otherExpense"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      56
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2025.income.pretaxIncome",
+    "value": 3.885,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 56,
+      "line": "pretaxIncome"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      56,
+      72,
+      85
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2025.income.taxExpense",
+    "value": 0.666,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 56,
+      "line": "taxExpense"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      56,
+      72
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2025.income.netIncome",
+    "value": 3.219,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 56,
+      "line": "netIncome"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      56,
+      57,
+      59,
+      60,
+      77
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2025.balance.cash",
+    "value": 7.464,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 58,
+      "line": "cash"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2025.balance.shortTermInvestments",
+    "value": 1.687,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 58,
+      "line": "shortTermInvestments"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2025.balance.reportedReceivables",
+    "value": 4.717,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 58,
+      "line": "reportedReceivables"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2025.balance.inventory",
+    "value": 7.489,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 58,
+      "line": "inventory"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58,
+      85
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2025.balance.otherCurrentAssets",
+    "value": 2.005,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 58,
+      "line": "otherCurrentAssets"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2025.balance.currentAssets",
+    "value": 23.362,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 58,
+      "line": "currentAssets"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2025.balance.accountsPayable",
+    "value": 3.479,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 58,
+      "line": "accountsPayable"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2025.balance.accruedLiabilities",
+    "value": 5.911,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 58,
+      "line": "accruedLiabilities"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58,
+      68
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2025.balance.taxPayable",
+    "value": 0.669,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 58,
+      "line": "taxPayable"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2025.balance.notesPayable",
+    "value": 0.005,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 58,
+      "line": "notesPayable"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2025.balance.currentDebt",
+    "value": 0.0,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 58,
+      "line": "currentDebt"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58,
+      71
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2025.balance.currentLeaseLiabilities",
+    "value": 0.502,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 58,
+      "line": "currentLeaseLiabilities"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2025.balance.currentLiabilities",
+    "value": 10.566,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 58,
+      "line": "currentLiabilities"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2025.balance.longTermDebt",
+    "value": 7.961,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 58,
+      "line": "longTermDebt"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58,
+      71
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2025.balance.noncurrentLeaseLiabilities",
+    "value": 2.55,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 58,
+      "line": "noncurrentLeaseLiabilities"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2025.balance.otherNoncurrentLiabilities",
+    "value": 2.289,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 58,
+      "line": "otherNoncurrentLiabilities"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2025.balance.equity",
+    "value": 13.213,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 58,
+      "line": "equity"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58,
+      60
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2025.balance.assets",
+    "value": 36.579,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 58,
+      "line": "assets"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2025.cashFlow.depreciationLine",
+    "value": 0.775,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 59,
+      "line": "depreciationLine"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      59,
+      85
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2025.cashFlow.deferredTax",
+    "value": -0.288,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 59,
+      "line": "deferredTax"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      59,
+      72
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2025.cashFlow.stockCompensation",
+    "value": 0.709,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 59,
+      "line": "stockCompensation"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      59
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2025.cashFlow.impairmentAmortizationOther",
+    "value": 0.033,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 59,
+      "line": "impairmentAmortizationOther"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      59
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2025.cashFlow.noncashFX",
+    "value": 0.037,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 59,
+      "line": "noncashFX"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      59
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2025.cashFlow.receivablesCashEffect",
+    "value": -0.257,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 59,
+      "line": "receivablesCashEffect"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      59
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2025.cashFlow.inventoryCashEffect",
+    "value": 0.12,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 59,
+      "line": "inventoryCashEffect"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      59
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2025.cashFlow.otherAssetsCashEffect",
+    "value": -0.224,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 59,
+      "line": "otherAssetsCashEffect"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      59
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2025.cashFlow.otherLiabilitiesCashEffect",
+    "value": -0.426,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 59,
+      "line": "otherLiabilitiesCashEffect"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      59
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2025.cashFlow.cfo",
+    "value": 3.698,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 59,
+      "line": "cfo"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      59
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2025.cashFlow.capex",
+    "value": 0.43,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 59,
+      "line": "capex"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      59
+    ],
+    "candidates": []
+  },
+  {
+    "path": "FY2025.cashFlow.buybacks",
+    "value": 2.985,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 59,
+      "line": "buybacks"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      59
+    ],
+    "candidates": []
+  },
+  {
+    "path": "FY2025.cashFlow.dividends",
+    "value": 2.3,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 59,
+      "line": "dividends"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      59
+    ],
+    "candidates": []
+  },
+  {
+    "path": "FY2025.cashFlow.cashInterestPaid",
+    "value": 0.389,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 59,
+      "line": "cashInterestPaid"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      59
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2025.cashFlow.da",
+    "value": 0.775,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 59,
+      "line": "Depreciation and amortization"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      59,
+      85
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2025.segments.northAmerica",
+    "status": "MATCH",
+    "value": 19.572,
+    "source": {
+      "filing": "C",
+      "period": "FY2025",
+      "printedPage": 86,
+      "line": "northAmerica",
+      "note": "15"
+    },
+    "matchingPages": [
+      86
+    ]
+  },
+  {
+    "path": "FY2025.segments.emea",
+    "status": "MATCH",
+    "value": 12.257,
+    "source": {
+      "filing": "C",
+      "period": "FY2025",
+      "printedPage": 86,
+      "line": "emea",
+      "note": "15"
+    },
+    "matchingPages": [
+      86
+    ]
+  },
+  {
+    "path": "FY2025.segments.greaterChina",
+    "status": "MATCH",
+    "value": 6.586,
+    "source": {
+      "filing": "C",
+      "period": "FY2025",
+      "printedPage": 86,
+      "line": "greaterChina",
+      "note": "15"
+    },
+    "matchingPages": [
+      86
+    ]
+  },
+  {
+    "path": "FY2025.segments.apla",
+    "status": "MATCH",
+    "value": 6.251,
+    "source": {
+      "filing": "C",
+      "period": "FY2025",
+      "printedPage": 86,
+      "line": "apla",
+      "note": "15"
+    },
+    "matchingPages": [
+      86
+    ]
+  },
+  {
+    "path": "FY2025.segments.globalBrandDivisions",
+    "status": "MATCH",
+    "value": 0.048,
+    "source": {
+      "filing": "C",
+      "period": "FY2025",
+      "printedPage": 86,
+      "line": "globalBrandDivisions",
+      "note": "15"
+    },
+    "matchingPages": [
+      86
+    ]
+  },
+  {
+    "path": "FY2025.segments.converse",
+    "status": "MATCH",
+    "value": 1.692,
+    "source": {
+      "filing": "C",
+      "period": "FY2025",
+      "printedPage": 86,
+      "line": "converse",
+      "note": "15"
+    },
+    "matchingPages": [
+      86
+    ]
+  },
+  {
+    "path": "FY2025.segments.corporate",
+    "status": "MATCH",
+    "value": -0.097,
+    "source": {
+      "filing": "C",
+      "period": "FY2025",
+      "printedPage": 86,
+      "line": "corporate",
+      "note": "15"
+    },
+    "matchingPages": [
+      86
+    ]
+  },
+  {
+    "path": "FY2026.income.revenue",
+    "value": 46.398,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 55,
+      "line": "revenue"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      55,
+      83,
+      86
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2026.income.cogs",
+    "value": 26.487,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 55,
+      "line": "cogs"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      55,
+      86
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2026.income.grossProfit",
+    "value": 19.911,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 55,
+      "line": "grossProfit"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      55,
+      86
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2026.income.demandCreation",
+    "value": 4.754,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 55,
+      "line": "demandCreation"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      55,
+      63,
+      86
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2026.income.operatingOverhead",
+    "value": 11.36,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 55,
+      "line": "operatingOverhead"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      55,
+      86
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2026.income.sga",
+    "value": 16.114,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 55,
+      "line": "sga"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      55,
+      86
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2026.income.netInterestExpense",
+    "value": -0.05,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 55,
+      "line": "netInterestExpense"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      55,
+      86
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2026.income.otherExpense",
+    "value": -0.053,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 55,
+      "line": "otherExpense"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      55
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2026.income.pretaxIncome",
+    "value": 3.9,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 55,
+      "line": "pretaxIncome"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      55,
+      71,
+      86
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2026.income.taxExpense",
+    "value": 0.792,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 55,
+      "line": "taxExpense"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      55,
+      71,
+      72
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2026.income.netIncome",
+    "value": 3.108,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 55,
+      "line": "netIncome"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      55,
+      56,
+      58,
+      59,
+      77
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2026.balance.cash",
+    "value": 7.563,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 57,
+      "line": "cash"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2026.balance.shortTermInvestments",
+    "value": 1.464,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 57,
+      "line": "shortTermInvestments"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57,
+      68
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2026.balance.reportedReceivables",
+    "value": 5.931,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 57,
+      "line": "reportedReceivables"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2026.balance.inventory",
+    "value": 7.501,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 57,
+      "line": "inventory"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57,
+      86
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2026.balance.otherCurrentAssets",
+    "value": 2.144,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 57,
+      "line": "otherCurrentAssets"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2026.balance.currentAssets",
+    "value": 24.603,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 57,
+      "line": "currentAssets"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2026.balance.accountsPayable",
+    "value": 3.6,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 57,
+      "line": "accountsPayable"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2026.balance.accruedLiabilities",
+    "value": 6.092,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 57,
+      "line": "accruedLiabilities"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57,
+      67
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2026.balance.taxPayable",
+    "value": 0.377,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 57,
+      "line": "taxPayable"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2026.balance.notesPayable",
+    "value": 0,
+    "source": {
+      "filing": "Q",
+      "period": "FY2026",
+      "printedPage": 3,
+      "line": "No separate notes payable line"
+    },
+    "status": "presentation-derived; separately checked current-liability reconciliation"
+  },
+  {
+    "path": "FY2026.balance.currentDebt",
+    "value": 2.0,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 57,
+      "line": "currentDebt"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57,
+      70
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2026.balance.currentLeaseLiabilities",
+    "value": 0.478,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 57,
+      "line": "currentLeaseLiabilities"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2026.balance.currentLiabilities",
+    "value": 12.547,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 57,
+      "line": "currentLiabilities"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2026.balance.longTermDebt",
+    "value": 5.942,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 57,
+      "line": "longTermDebt"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57,
+      70
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2026.balance.noncurrentLeaseLiabilities",
+    "value": 2.613,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 57,
+      "line": "noncurrentLeaseLiabilities"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2026.balance.otherNoncurrentLiabilities",
+    "value": 2.443,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 57,
+      "line": "otherNoncurrentLiabilities"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2026.balance.equity",
+    "value": 14.865,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 57,
+      "line": "equity"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57,
+      59
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2026.balance.assets",
+    "value": 38.41,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 57,
+      "line": "assets"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      57
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2026.cashFlow.depreciationLine",
+    "value": 0.747,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 58,
+      "line": "depreciationLine"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58,
+      86
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2026.cashFlow.deferredTax",
+    "value": -0.096,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 58,
+      "line": "deferredTax"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58,
+      71
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2026.cashFlow.stockCompensation",
+    "value": 0.715,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 58,
+      "line": "stockCompensation"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2026.cashFlow.impairmentAmortizationOther",
+    "value": 0.05,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 58,
+      "line": "impairmentAmortizationOther"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2026.cashFlow.noncashFX",
+    "value": 0.022,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 58,
+      "line": "noncashFX"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2026.cashFlow.receivablesCashEffect",
+    "value": -1.207,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 58,
+      "line": "receivablesCashEffect"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2026.cashFlow.inventoryCashEffect",
+    "value": -0.031,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 58,
+      "line": "inventoryCashEffect"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2026.cashFlow.otherAssetsCashEffect",
+    "value": 0.519,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 58,
+      "line": "otherAssetsCashEffect"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2026.cashFlow.otherLiabilitiesCashEffect",
+    "value": -0.959,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 58,
+      "line": "otherLiabilitiesCashEffect"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2026.cashFlow.cfo",
+    "value": 2.868,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 58,
+      "line": "cfo"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2026.cashFlow.capex",
+    "value": 0.684,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 58,
+      "line": "capex"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": []
+  },
+  {
+    "path": "FY2026.cashFlow.buybacks",
+    "value": 0.146,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 58,
+      "line": "buybacks"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": []
+  },
+  {
+    "path": "FY2026.cashFlow.dividends",
+    "value": 2.407,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 58,
+      "line": "dividends"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": []
+  },
+  {
+    "path": "FY2026.cashFlow.cashInterestPaid",
+    "value": 0.323,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 58,
+      "line": "cashInterestPaid"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2026.cashFlow.da",
+    "value": 0.747,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 58,
+      "line": "Depreciation and amortization"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      58,
+      86
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2026.segments.northAmerica",
+    "status": "MATCH",
+    "value": 20.511,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 86,
+      "line": "northAmerica",
+      "note": "15"
+    },
+    "matchingPages": [
+      86
+    ]
+  },
+  {
+    "path": "FY2026.segments.emea",
+    "status": "MATCH",
+    "value": 12.572,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 86,
+      "line": "emea",
+      "note": "15"
+    },
+    "matchingPages": [
+      86
+    ]
+  },
+  {
+    "path": "FY2026.segments.greaterChina",
+    "status": "MATCH",
+    "value": 5.847,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 86,
+      "line": "greaterChina",
+      "note": "15"
+    },
+    "matchingPages": [
+      86
+    ]
+  },
+  {
+    "path": "FY2026.segments.apla",
+    "status": "MATCH",
+    "value": 6.243,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 86,
+      "line": "apla",
+      "note": "15"
+    },
+    "matchingPages": [
+      86
+    ]
+  },
+  {
+    "path": "FY2026.segments.globalBrandDivisions",
+    "status": "MATCH",
+    "value": 0.049,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 86,
+      "line": "globalBrandDivisions",
+      "note": "15"
+    },
+    "matchingPages": [
+      86
+    ]
+  },
+  {
+    "path": "FY2026.segments.converse",
+    "status": "MATCH",
+    "value": 1.174,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 86,
+      "line": "converse",
+      "note": "15"
+    },
+    "matchingPages": [
+      86
+    ]
+  },
+  {
+    "path": "FY2026.segments.corporate",
+    "status": "MATCH",
+    "value": 0.002,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 86,
+      "line": "corporate",
+      "note": "15"
+    },
+    "matchingPages": [
+      86
+    ]
+  },
+  {
+    "path": "FY2027 Q1.income.revenue",
+    "value": 11.213,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 1,
+      "line": "revenue"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      1,
+      14,
+      16
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2027 Q1.income.cogs",
+    "value": 6.415,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 1,
+      "line": "cogs"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      1,
+      16
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2027 Q1.income.grossProfit",
+    "value": 4.798,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 1,
+      "line": "grossProfit"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      1,
+      16
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2027 Q1.income.demandCreation",
+    "value": 1.252,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 1,
+      "line": "demandCreation"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      1,
+      16
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2027 Q1.income.operatingOverhead",
+    "value": 2.658,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 1,
+      "line": "operatingOverhead"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      1,
+      16
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2027 Q1.income.sga",
+    "value": 3.91,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 1,
+      "line": "sga"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      1,
+      16
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2027 Q1.income.netInterestExpense",
+    "value": -0.014,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 1,
+      "line": "netInterestExpense"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      1,
+      16
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2027 Q1.income.otherExpense",
+    "value": -0.019,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 1,
+      "line": "otherExpense"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      1
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2027 Q1.income.pretaxIncome",
+    "value": 0.921,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 1,
+      "line": "pretaxIncome"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      1,
+      16
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2027 Q1.income.taxExpense",
+    "value": 0.209,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 1,
+      "line": "taxExpense"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      1
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2027 Q1.income.netIncome",
+    "value": 0.712,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 1,
+      "line": "netIncome"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      1,
+      2,
+      4,
+      5,
+      10
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2027 Q1.balance.cash",
+    "value": 6.903,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 3,
+      "line": "cash"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      3
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2027 Q1.balance.shortTermInvestments",
+    "value": 1.465,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 3,
+      "line": "shortTermInvestments"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      3,
+      8
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2027 Q1.balance.reportedReceivables",
+    "value": 5.242,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 3,
+      "line": "reportedReceivables"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      3
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2027 Q1.balance.inventory",
+    "value": 7.846,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 3,
+      "line": "inventory"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      3,
+      17
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2027 Q1.balance.otherCurrentAssets",
+    "value": 2.217,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 3,
+      "line": "otherCurrentAssets"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      3
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2027 Q1.balance.currentAssets",
+    "value": 23.673,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 3,
+      "line": "currentAssets"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      3
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2027 Q1.balance.accountsPayable",
+    "value": 3.42,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 3,
+      "line": "accountsPayable"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      3
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2027 Q1.balance.accruedLiabilities",
+    "value": 5.338,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 3,
+      "line": "accruedLiabilities"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      3,
+      7
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2027 Q1.balance.taxPayable",
+    "value": 0.178,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 3,
+      "line": "taxPayable"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      3
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2027 Q1.balance.notesPayable",
+    "value": 0,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 3,
+      "line": "No separate notes payable line"
+    },
+    "status": "presentation-derived; separately checked current-liability reconciliation"
+  },
+  {
+    "path": "FY2027 Q1.balance.currentDebt",
+    "value": 2.0,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 3,
+      "line": "currentDebt"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      3
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2027 Q1.balance.currentLeaseLiabilities",
+    "value": 0.473,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 3,
+      "line": "currentLeaseLiabilities"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      3
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2027 Q1.balance.currentLiabilities",
+    "value": 11.409,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 3,
+      "line": "currentLiabilities"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      3
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2027 Q1.balance.longTermDebt",
+    "value": 5.893,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 3,
+      "line": "longTermDebt"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      3
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2027 Q1.balance.noncurrentLeaseLiabilities",
+    "value": 2.706,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 3,
+      "line": "noncurrentLeaseLiabilities"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      3
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2027 Q1.balance.otherNoncurrentLiabilities",
+    "value": 2.566,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 3,
+      "line": "otherNoncurrentLiabilities"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      3
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2027 Q1.balance.equity",
+    "value": 15.22,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 3,
+      "line": "equity"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      3,
+      5
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2027 Q1.balance.assets",
+    "value": 37.794,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 3,
+      "line": "assets"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      3
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2027 Q1.cashFlow.depreciationLine",
+    "value": 0.193,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 4,
+      "line": "depreciationLine"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      4,
+      16
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2027 Q1.cashFlow.deferredTax",
+    "value": -0.067,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 4,
+      "line": "deferredTax"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      4
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2027 Q1.cashFlow.stockCompensation",
+    "value": 0.158,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 4,
+      "line": "stockCompensation"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      4
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2027 Q1.cashFlow.impairmentAmortizationOther",
+    "value": 0.009,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 4,
+      "line": "impairmentAmortizationOther"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      4
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2027 Q1.cashFlow.noncashFX",
+    "value": -0.024,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 4,
+      "line": "noncashFX"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      4
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2027 Q1.cashFlow.receivablesCashEffect",
+    "value": 0.695,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 4,
+      "line": "receivablesCashEffect"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      4
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2027 Q1.cashFlow.inventoryCashEffect",
+    "value": -0.312,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 4,
+      "line": "inventoryCashEffect"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      4
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2027 Q1.cashFlow.otherAssetsCashEffect",
+    "value": -0.01,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 4,
+      "line": "otherAssetsCashEffect"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      4
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2027 Q1.cashFlow.otherLiabilitiesCashEffect",
+    "value": -1.219,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 4,
+      "line": "otherLiabilitiesCashEffect"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      4
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2027 Q1.cashFlow.cfo",
+    "value": 0.135,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 4,
+      "line": "cfo"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      4
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2027 Q1.cashFlow.capex",
+    "value": 0.199,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 4,
+      "line": "capex"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      4
+    ],
+    "candidates": []
+  },
+  {
+    "path": "FY2027 Q1.cashFlow.buybacks",
+    "value": 0.0,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 4,
+      "line": "buybacks"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      4
+    ],
+    "candidates": []
+  },
+  {
+    "path": "FY2027 Q1.cashFlow.dividends",
+    "value": 0.61,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 4,
+      "line": "dividends"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      4
+    ],
+    "candidates": []
+  },
+  {
+    "path": "FY2027 Q1.cashFlow.da",
+    "value": 0.193,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 4,
+      "line": "Depreciation and amortization"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      4,
+      16
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2027 Q1.segments.northAmerica",
+    "status": "MATCH",
+    "value": 5.127,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 16,
+      "line": "northAmerica",
+      "note": "10"
+    },
+    "matchingPages": [
+      16
+    ]
+  },
+  {
+    "path": "FY2027 Q1.segments.emea",
+    "status": "MATCH",
+    "value": 3.176,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 16,
+      "line": "emea",
+      "note": "10"
+    },
+    "matchingPages": [
+      16
+    ]
+  },
+  {
+    "path": "FY2027 Q1.segments.greaterChina",
+    "status": "MATCH",
+    "value": 1.18,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 16,
+      "line": "greaterChina",
+      "note": "10"
+    },
+    "matchingPages": [
+      16
+    ]
+  },
+  {
+    "path": "FY2027 Q1.segments.apla",
+    "status": "MATCH",
+    "value": 1.463,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 16,
+      "line": "apla",
+      "note": "10"
+    },
+    "matchingPages": [
+      16
+    ]
+  },
+  {
+    "path": "FY2027 Q1.segments.globalBrandDivisions",
+    "status": "MATCH",
+    "value": 0.006,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 16,
+      "line": "globalBrandDivisions",
+      "note": "10"
+    },
+    "matchingPages": [
+      16
+    ]
+  },
+  {
+    "path": "FY2027 Q1.segments.converse",
+    "status": "MATCH",
+    "value": 0.263,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 16,
+      "line": "converse",
+      "note": "10"
+    },
+    "matchingPages": [
+      16
+    ]
+  },
+  {
+    "path": "FY2027 Q1.segments.corporate",
+    "status": "MATCH",
+    "value": -0.002,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 16,
+      "line": "corporate",
+      "note": "10"
+    },
+    "matchingPages": [
+      16
+    ]
+  },
+  {
+    "path": "FY2026 Q1.income.revenue",
+    "value": 11.72,
+    "source": {
+      "filing": "Q",
+      "period": "FY2026 Q1",
+      "printedPage": 1,
+      "line": "revenue"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      1,
+      14,
+      16
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2026 Q1.income.cogs",
+    "value": 6.777,
+    "source": {
+      "filing": "Q",
+      "period": "FY2026 Q1",
+      "printedPage": 1,
+      "line": "cogs"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      1,
+      16
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2026 Q1.income.grossProfit",
+    "value": 4.943,
+    "source": {
+      "filing": "Q",
+      "period": "FY2026 Q1",
+      "printedPage": 1,
+      "line": "grossProfit"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      1,
+      16
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2026 Q1.income.demandCreation",
+    "value": 1.188,
+    "source": {
+      "filing": "Q",
+      "period": "FY2026 Q1",
+      "printedPage": 1,
+      "line": "demandCreation"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      1,
+      16
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2026 Q1.income.operatingOverhead",
+    "value": 2.828,
+    "source": {
+      "filing": "Q",
+      "period": "FY2026 Q1",
+      "printedPage": 1,
+      "line": "operatingOverhead"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      1,
+      16
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2026 Q1.income.sga",
+    "value": 4.016,
+    "source": {
+      "filing": "Q",
+      "period": "FY2026 Q1",
+      "printedPage": 1,
+      "line": "sga"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      1,
+      16
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2026 Q1.income.netInterestExpense",
+    "value": -0.018,
+    "source": {
+      "filing": "Q",
+      "period": "FY2026 Q1",
+      "printedPage": 1,
+      "line": "netInterestExpense"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      1,
+      16
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2026 Q1.income.otherExpense",
+    "value": 0.023,
+    "source": {
+      "filing": "Q",
+      "period": "FY2026 Q1",
+      "printedPage": 1,
+      "line": "otherExpense"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      1
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2026 Q1.income.pretaxIncome",
+    "value": 0.922,
+    "source": {
+      "filing": "Q",
+      "period": "FY2026 Q1",
+      "printedPage": 1,
+      "line": "pretaxIncome"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      1,
+      16
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2026 Q1.income.taxExpense",
+    "value": 0.195,
+    "source": {
+      "filing": "Q",
+      "period": "FY2026 Q1",
+      "printedPage": 1,
+      "line": "taxExpense"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      1
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2026 Q1.income.netIncome",
+    "value": 0.727,
+    "source": {
+      "filing": "Q",
+      "period": "FY2026 Q1",
+      "printedPage": 1,
+      "line": "netIncome"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      1,
+      2,
+      4,
+      5,
+      10
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2026 Q1.cashFlow.cfo",
+    "value": 0.222,
+    "source": {
+      "filing": "Q",
+      "period": "FY2026 Q1",
+      "printedPage": 4,
+      "line": "cfo"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      4
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2026 Q1.cashFlow.capex",
+    "value": 0.207,
+    "source": {
+      "filing": "Q",
+      "period": "FY2026 Q1",
+      "printedPage": 4,
+      "line": "capex"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      4
+    ],
+    "candidates": []
+  },
+  {
+    "path": "FY2026 Q1.cashFlow.da",
+    "value": 0.19,
+    "source": {
+      "filing": "Q",
+      "period": "FY2026 Q1",
+      "printedPage": 4,
+      "line": "da"
+    },
+    "status": "MATCH",
+    "matchingPages": [
+      4,
+      16
+    ],
+    "candidates": [],
+    "displaySignMatch": true
+  },
+  {
+    "path": "FY2022.facilities.long.commitment",
+    "status": "MATCH",
+    "value": 2,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 70,
+      "line": "Five-year committed facility",
+      "note": "5"
+    },
+    "basis": "Contract commitment amount; optional increases excluded"
+  },
+  {
+    "path": "FY2022.facilities.long.drawn",
+    "status": "MATCH",
+    "value": 0,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 70,
+      "line": "Committed facilities drawn",
+      "note": "5"
+    },
+    "basis": "Explicit no amounts outstanding under committed facilities"
+  },
+  {
+    "path": "FY2022.facilities.long.expiry",
+    "status": "MATCH",
+    "value": "2027-03-11",
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 70,
+      "line": "Five-year facility scheduled expiry",
+      "note": "5"
+    },
+    "basis": "Exact contractual expiry date in credit-facility note"
+  },
+  {
+    "path": "FY2022.facilities.short.commitment",
+    "status": "MATCH",
+    "value": 1,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 70,
+      "line": "364-day committed facility",
+      "note": "5"
+    },
+    "basis": "Contract commitment amount; optional increases excluded"
+  },
+  {
+    "path": "FY2022.facilities.short.drawn",
+    "status": "MATCH",
+    "value": 0,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 70,
+      "line": "Committed facilities drawn",
+      "note": "5"
+    },
+    "basis": "Explicit no amounts outstanding under committed facilities"
+  },
+  {
+    "path": "FY2022.facilities.short.expiry",
+    "status": "MATCH",
+    "value": "2023-03-10",
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 70,
+      "line": "364-day facility scheduled expiry",
+      "note": "5"
+    },
+    "basis": "Exact contractual expiry date in credit-facility note"
+  },
+  {
+    "path": "FY2022.facilities.commercialPaperCapacity",
+    "status": "MATCH",
+    "value": 3,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 45,
+      "line": "Commercial paper program capacity"
+    },
+    "basis": "Commercial-paper program capacity"
+  },
+  {
+    "path": "FY2022.facilities.commercialPaperDrawn",
+    "status": "MATCH",
+    "value": 0,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 45,
+      "line": "Commercial paper outstanding"
+    },
+    "basis": "Explicit no borrowings outstanding under commercial-paper program"
+  },
+  {
+    "path": "FY2022.debtMaturities.FY2023",
+    "status": "MATCH",
+    "value": 0.5,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 71,
+      "line": "Principal due FY2023",
+      "note": "6"
+    },
+    "rows": [
+      {
+        "contractualDate": "2023-05-01",
+        "page": 71
+      }
+    ]
+  },
+  {
+    "path": "FY2022.debtMaturities.FY2025",
+    "status": "MATCH",
+    "value": 1,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 71,
+      "line": "Principal due FY2025",
+      "note": "6"
+    },
+    "rows": [
+      {
+        "contractualDate": "2025-03-27",
+        "page": 71
+      }
+    ]
+  },
+  {
+    "path": "FY2022.debtMaturities.FY2027",
+    "status": "MATCH",
+    "value": 2,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 71,
+      "line": "Principal due FY2027",
+      "note": "6"
+    },
+    "rows": [
+      {
+        "contractualDate": "2026-11-01",
+        "page": 71
+      },
+      {
+        "contractualDate": "2027-03-27",
+        "page": 71
+      }
+    ]
+  },
+  {
+    "path": "FY2022.debtMaturities.FY2030",
+    "status": "MATCH",
+    "value": 1.5,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 71,
+      "line": "Principal due FY2030",
+      "note": "6"
+    },
+    "rows": [
+      {
+        "contractualDate": "2030-03-27",
+        "page": 71
+      }
+    ]
+  },
+  {
+    "path": "FY2022.debtMaturities.FY2040",
+    "status": "MATCH",
+    "value": 1,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 71,
+      "line": "Principal due FY2040",
+      "note": "6"
+    },
+    "rows": [
+      {
+        "contractualDate": "2040-03-27",
+        "page": 71
+      }
+    ]
+  },
+  {
+    "path": "FY2022.debtMaturities.FY2043",
+    "status": "MATCH",
+    "value": 0.5,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 71,
+      "line": "Principal due FY2043",
+      "note": "6"
+    },
+    "rows": [
+      {
+        "contractualDate": "2043-05-01",
+        "page": 71
+      }
+    ]
+  },
+  {
+    "path": "FY2022.debtMaturities.FY2046",
+    "status": "MATCH",
+    "value": 1,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 71,
+      "line": "Principal due FY2046",
+      "note": "6"
+    },
+    "rows": [
+      {
+        "contractualDate": "2045-11-01",
+        "page": 71
+      }
+    ]
+  },
+  {
+    "path": "FY2022.debtMaturities.FY2047",
+    "status": "MATCH",
+    "value": 0.5,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 71,
+      "line": "Principal due FY2047",
+      "note": "6"
+    },
+    "rows": [
+      {
+        "contractualDate": "2046-11-01",
+        "page": 71
+      }
+    ]
+  },
+  {
+    "path": "FY2022.debtMaturities.FY2050",
+    "status": "MATCH",
+    "value": 1.5,
+    "source": {
+      "filing": "A",
+      "period": "FY2022",
+      "printedPage": 71,
+      "line": "Principal due FY2050",
+      "note": "6"
+    },
+    "rows": [
+      {
+        "contractualDate": "2050-03-27",
+        "page": 71
+      }
+    ]
+  },
+  {
+    "path": "FY2023.facilities.long.commitment",
+    "status": "MATCH",
+    "value": 2,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 70,
+      "line": "Five-year committed facility",
+      "note": "5"
+    },
+    "basis": "Contract commitment amount; optional increases excluded"
+  },
+  {
+    "path": "FY2023.facilities.long.drawn",
+    "status": "MATCH",
+    "value": 0,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 70,
+      "line": "Committed facilities drawn",
+      "note": "5"
+    },
+    "basis": "Explicit no amounts outstanding under committed facilities"
+  },
+  {
+    "path": "FY2023.facilities.long.expiry",
+    "status": "MATCH",
+    "value": "2027-03-11",
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 70,
+      "line": "Five-year facility scheduled expiry",
+      "note": "5"
+    },
+    "basis": "Exact contractual expiry date in credit-facility note"
+  },
+  {
+    "path": "FY2023.facilities.short.commitment",
+    "status": "MATCH",
+    "value": 1,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 70,
+      "line": "364-day committed facility",
+      "note": "5"
+    },
+    "basis": "Contract commitment amount; optional increases excluded"
+  },
+  {
+    "path": "FY2023.facilities.short.drawn",
+    "status": "MATCH",
+    "value": 0,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 70,
+      "line": "Committed facilities drawn",
+      "note": "5"
+    },
+    "basis": "Explicit no amounts outstanding under committed facilities"
+  },
+  {
+    "path": "FY2023.facilities.short.expiry",
+    "status": "MATCH",
+    "value": "2024-03-08",
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 70,
+      "line": "364-day facility scheduled expiry",
+      "note": "5"
+    },
+    "basis": "Exact contractual expiry date in credit-facility note"
+  },
+  {
+    "path": "FY2023.facilities.commercialPaperCapacity",
+    "status": "MATCH",
+    "value": 3,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 45,
+      "line": "Commercial paper program capacity"
+    },
+    "basis": "Commercial-paper program capacity"
+  },
+  {
+    "path": "FY2023.facilities.commercialPaperDrawn",
+    "status": "MATCH",
+    "value": 0,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 45,
+      "line": "Commercial paper outstanding"
+    },
+    "basis": "Explicit no borrowings outstanding under commercial-paper program"
+  },
+  {
+    "path": "FY2023.debtMaturities.FY2025",
+    "status": "MATCH",
+    "value": 1,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 71,
+      "line": "Principal due FY2025",
+      "note": "6"
+    },
+    "rows": [
+      {
+        "contractualDate": "2025-03-27",
+        "page": 71
+      }
+    ]
+  },
+  {
+    "path": "FY2023.debtMaturities.FY2027",
+    "status": "MATCH",
+    "value": 2,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 71,
+      "line": "Principal due FY2027",
+      "note": "6"
+    },
+    "rows": [
+      {
+        "contractualDate": "2026-11-01",
+        "page": 71
+      },
+      {
+        "contractualDate": "2027-03-27",
+        "page": 71
+      }
+    ]
+  },
+  {
+    "path": "FY2023.debtMaturities.FY2030",
+    "status": "MATCH",
+    "value": 1.5,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 71,
+      "line": "Principal due FY2030",
+      "note": "6"
+    },
+    "rows": [
+      {
+        "contractualDate": "2030-03-27",
+        "page": 71
+      }
+    ]
+  },
+  {
+    "path": "FY2023.debtMaturities.FY2040",
+    "status": "MATCH",
+    "value": 1,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 71,
+      "line": "Principal due FY2040",
+      "note": "6"
+    },
+    "rows": [
+      {
+        "contractualDate": "2040-03-27",
+        "page": 71
+      }
+    ]
+  },
+  {
+    "path": "FY2023.debtMaturities.FY2043",
+    "status": "MATCH",
+    "value": 0.5,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 71,
+      "line": "Principal due FY2043",
+      "note": "6"
+    },
+    "rows": [
+      {
+        "contractualDate": "2043-05-01",
+        "page": 71
+      }
+    ]
+  },
+  {
+    "path": "FY2023.debtMaturities.FY2046",
+    "status": "MATCH",
+    "value": 1,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 71,
+      "line": "Principal due FY2046",
+      "note": "6"
+    },
+    "rows": [
+      {
+        "contractualDate": "2045-11-01",
+        "page": 71
+      }
+    ]
+  },
+  {
+    "path": "FY2023.debtMaturities.FY2047",
+    "status": "MATCH",
+    "value": 0.5,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 71,
+      "line": "Principal due FY2047",
+      "note": "6"
+    },
+    "rows": [
+      {
+        "contractualDate": "2046-11-01",
+        "page": 71
+      }
+    ]
+  },
+  {
+    "path": "FY2023.debtMaturities.FY2050",
+    "status": "MATCH",
+    "value": 1.5,
+    "source": {
+      "filing": "A",
+      "period": "FY2023",
+      "printedPage": 71,
+      "line": "Principal due FY2050",
+      "note": "6"
+    },
+    "rows": [
+      {
+        "contractualDate": "2050-03-27",
+        "page": 71
+      }
+    ]
+  },
+  {
+    "path": "FY2024.facilities.long.commitment",
+    "status": "MATCH",
+    "value": 2,
+    "source": {
+      "filing": "D",
+      "period": "FY2024",
+      "printedPage": 72,
+      "line": "Five-year committed facility",
+      "note": "5"
+    },
+    "basis": "Contract commitment amount; optional increases excluded"
+  },
+  {
+    "path": "FY2024.facilities.long.drawn",
+    "status": "MATCH",
+    "value": 0,
+    "source": {
+      "filing": "D",
+      "period": "FY2024",
+      "printedPage": 72,
+      "line": "Committed facilities drawn",
+      "note": "5"
+    },
+    "basis": "Explicit no amounts outstanding under committed facilities"
+  },
+  {
+    "path": "FY2024.facilities.long.expiry",
+    "status": "MATCH",
+    "value": "2027-03-11",
+    "source": {
+      "filing": "D",
+      "period": "FY2024",
+      "printedPage": 72,
+      "line": "Five-year facility scheduled expiry",
+      "note": "5"
+    },
+    "basis": "Exact contractual expiry date in credit-facility note"
+  },
+  {
+    "path": "FY2024.facilities.short.commitment",
+    "status": "MATCH",
+    "value": 1,
+    "source": {
+      "filing": "D",
+      "period": "FY2024",
+      "printedPage": 72,
+      "line": "364-day committed facility",
+      "note": "5"
+    },
+    "basis": "Contract commitment amount; optional increases excluded"
+  },
+  {
+    "path": "FY2024.facilities.short.drawn",
+    "status": "MATCH",
+    "value": 0,
+    "source": {
+      "filing": "D",
+      "period": "FY2024",
+      "printedPage": 72,
+      "line": "Committed facilities drawn",
+      "note": "5"
+    },
+    "basis": "Explicit no amounts outstanding under committed facilities"
+  },
+  {
+    "path": "FY2024.facilities.short.expiry",
+    "status": "MATCH",
+    "value": "2025-03-07",
+    "source": {
+      "filing": "D",
+      "period": "FY2024",
+      "printedPage": 72,
+      "line": "364-day facility scheduled expiry",
+      "note": "5"
+    },
+    "basis": "Exact contractual expiry date in credit-facility note"
+  },
+  {
+    "path": "FY2024.facilities.commercialPaperCapacity",
+    "status": "MATCH",
+    "value": 3,
+    "source": {
+      "filing": "B",
+      "period": "FY2024",
+      "printedPage": 47,
+      "line": "Commercial paper program capacity"
+    },
+    "basis": "Commercial-paper program capacity"
+  },
+  {
+    "path": "FY2024.facilities.commercialPaperDrawn",
+    "status": "MATCH",
+    "value": 0,
+    "source": {
+      "filing": "B",
+      "period": "FY2024",
+      "printedPage": 47,
+      "line": "Commercial paper outstanding"
+    },
+    "basis": "Explicit no borrowings outstanding under commercial-paper program"
+  },
+  {
+    "path": "FY2024.debtMaturities.FY2025",
+    "status": "MATCH",
+    "value": 1,
+    "source": {
+      "filing": "D",
+      "period": "FY2024",
+      "printedPage": 73,
+      "line": "Principal due FY2025",
+      "note": "6"
+    },
+    "rows": [
+      {
+        "contractualDate": "2025-03-27",
+        "page": 73
+      }
+    ]
+  },
+  {
+    "path": "FY2024.debtMaturities.FY2027",
+    "status": "MATCH",
+    "value": 2,
+    "source": {
+      "filing": "D",
+      "period": "FY2024",
+      "printedPage": 73,
+      "line": "Principal due FY2027",
+      "note": "6"
+    },
+    "rows": [
+      {
+        "contractualDate": "2026-11-01",
+        "page": 73
+      },
+      {
+        "contractualDate": "2027-03-27",
+        "page": 73
+      }
+    ]
+  },
+  {
+    "path": "FY2024.debtMaturities.FY2030",
+    "status": "MATCH",
+    "value": 1.5,
+    "source": {
+      "filing": "D",
+      "period": "FY2024",
+      "printedPage": 73,
+      "line": "Principal due FY2030",
+      "note": "6"
+    },
+    "rows": [
+      {
+        "contractualDate": "2030-03-27",
+        "page": 73
+      }
+    ]
+  },
+  {
+    "path": "FY2024.debtMaturities.FY2040",
+    "status": "MATCH",
+    "value": 1,
+    "source": {
+      "filing": "D",
+      "period": "FY2024",
+      "printedPage": 73,
+      "line": "Principal due FY2040",
+      "note": "6"
+    },
+    "rows": [
+      {
+        "contractualDate": "2040-03-27",
+        "page": 73
+      }
+    ]
+  },
+  {
+    "path": "FY2024.debtMaturities.FY2043",
+    "status": "MATCH",
+    "value": 0.5,
+    "source": {
+      "filing": "D",
+      "period": "FY2024",
+      "printedPage": 73,
+      "line": "Principal due FY2043",
+      "note": "6"
+    },
+    "rows": [
+      {
+        "contractualDate": "2043-05-01",
+        "page": 73
+      }
+    ]
+  },
+  {
+    "path": "FY2024.debtMaturities.FY2046",
+    "status": "MATCH",
+    "value": 1,
+    "source": {
+      "filing": "D",
+      "period": "FY2024",
+      "printedPage": 73,
+      "line": "Principal due FY2046",
+      "note": "6"
+    },
+    "rows": [
+      {
+        "contractualDate": "2045-11-01",
+        "page": 73
+      }
+    ]
+  },
+  {
+    "path": "FY2024.debtMaturities.FY2047",
+    "status": "MATCH",
+    "value": 0.5,
+    "source": {
+      "filing": "D",
+      "period": "FY2024",
+      "printedPage": 73,
+      "line": "Principal due FY2047",
+      "note": "6"
+    },
+    "rows": [
+      {
+        "contractualDate": "2046-11-01",
+        "page": 73
+      }
+    ]
+  },
+  {
+    "path": "FY2024.debtMaturities.FY2050",
+    "status": "MATCH",
+    "value": 1.5,
+    "source": {
+      "filing": "D",
+      "period": "FY2024",
+      "printedPage": 73,
+      "line": "Principal due FY2050",
+      "note": "6"
+    },
+    "rows": [
+      {
+        "contractualDate": "2050-03-27",
+        "page": 73
+      }
+    ]
+  },
+  {
+    "path": "FY2025.facilities.long.commitment",
+    "status": "MATCH",
+    "value": 2,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 70,
+      "line": "Five-year committed facility",
+      "note": "5"
+    },
+    "basis": "Contract commitment amount; optional increases excluded"
+  },
+  {
+    "path": "FY2025.facilities.long.drawn",
+    "status": "MATCH",
+    "value": 0,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 70,
+      "line": "Committed facilities drawn",
+      "note": "5"
+    },
+    "basis": "Explicit no amounts outstanding under committed facilities"
+  },
+  {
+    "path": "FY2025.facilities.long.expiry",
+    "status": "MATCH",
+    "value": "2030-03-07",
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 70,
+      "line": "Five-year facility scheduled expiry",
+      "note": "5"
+    },
+    "basis": "Exact contractual expiry date in credit-facility note"
+  },
+  {
+    "path": "FY2025.facilities.short.commitment",
+    "status": "MATCH",
+    "value": 1,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 70,
+      "line": "364-day committed facility",
+      "note": "5"
+    },
+    "basis": "Contract commitment amount; optional increases excluded"
+  },
+  {
+    "path": "FY2025.facilities.short.drawn",
+    "status": "MATCH",
+    "value": 0,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 70,
+      "line": "Committed facilities drawn",
+      "note": "5"
+    },
+    "basis": "Explicit no amounts outstanding under committed facilities"
+  },
+  {
+    "path": "FY2025.facilities.short.expiry",
+    "status": "MATCH",
+    "value": "2026-03-06",
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 70,
+      "line": "364-day facility scheduled expiry",
+      "note": "5"
+    },
+    "basis": "Exact contractual expiry date in credit-facility note"
+  },
+  {
+    "path": "FY2025.facilities.commercialPaperCapacity",
+    "status": "MATCH",
+    "value": 3,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 47,
+      "line": "Commercial paper program capacity"
+    },
+    "basis": "Commercial-paper program capacity"
+  },
+  {
+    "path": "FY2025.facilities.commercialPaperDrawn",
+    "status": "MATCH",
+    "value": 0,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 47,
+      "line": "Commercial paper outstanding"
+    },
+    "basis": "Explicit no borrowings outstanding under commercial-paper program"
+  },
+  {
+    "path": "FY2025.debtMaturities.FY2027",
+    "status": "MATCH",
+    "value": 2,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 71,
+      "line": "Principal due FY2027",
+      "note": "6"
+    },
+    "rows": [
+      {
+        "contractualDate": "2026-11-01",
+        "page": 71
+      },
+      {
+        "contractualDate": "2027-03-27",
+        "page": 71
+      }
+    ]
+  },
+  {
+    "path": "FY2025.debtMaturities.FY2030",
+    "status": "MATCH",
+    "value": 1.5,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 71,
+      "line": "Principal due FY2030",
+      "note": "6"
+    },
+    "rows": [
+      {
+        "contractualDate": "2030-03-27",
+        "page": 71
+      }
+    ]
+  },
+  {
+    "path": "FY2025.debtMaturities.FY2040",
+    "status": "MATCH",
+    "value": 1,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 71,
+      "line": "Principal due FY2040",
+      "note": "6"
+    },
+    "rows": [
+      {
+        "contractualDate": "2040-03-27",
+        "page": 71
+      }
+    ]
+  },
+  {
+    "path": "FY2025.debtMaturities.FY2043",
+    "status": "MATCH",
+    "value": 0.5,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 71,
+      "line": "Principal due FY2043",
+      "note": "6"
+    },
+    "rows": [
+      {
+        "contractualDate": "2043-05-01",
+        "page": 71
+      }
+    ]
+  },
+  {
+    "path": "FY2025.debtMaturities.FY2046",
+    "status": "MATCH",
+    "value": 1,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 71,
+      "line": "Principal due FY2046",
+      "note": "6"
+    },
+    "rows": [
+      {
+        "contractualDate": "2045-11-01",
+        "page": 71
+      }
+    ]
+  },
+  {
+    "path": "FY2025.debtMaturities.FY2047",
+    "status": "MATCH",
+    "value": 0.5,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 71,
+      "line": "Principal due FY2047",
+      "note": "6"
+    },
+    "rows": [
+      {
+        "contractualDate": "2046-11-01",
+        "page": 71
+      }
+    ]
+  },
+  {
+    "path": "FY2025.debtMaturities.FY2050",
+    "status": "MATCH",
+    "value": 1.5,
+    "source": {
+      "filing": "B",
+      "period": "FY2025",
+      "printedPage": 71,
+      "line": "Principal due FY2050",
+      "note": "6"
+    },
+    "rows": [
+      {
+        "contractualDate": "2050-03-27",
+        "page": 71
+      }
+    ]
+  },
+  {
+    "path": "FY2026.facilities.long.commitment",
+    "status": "MATCH",
+    "value": 2,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 69,
+      "line": "Five-year committed facility",
+      "note": "5"
+    },
+    "basis": "Contract commitment amount; optional increases excluded"
+  },
+  {
+    "path": "FY2026.facilities.long.drawn",
+    "status": "MATCH",
+    "value": 0,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 69,
+      "line": "Committed facilities drawn",
+      "note": "5"
+    },
+    "basis": "Explicit no amounts outstanding under committed facilities"
+  },
+  {
+    "path": "FY2026.facilities.long.expiry",
+    "status": "MATCH",
+    "value": "2030-03-07",
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 69,
+      "line": "Five-year facility scheduled expiry",
+      "note": "5"
+    },
+    "basis": "Exact contractual expiry date in credit-facility note"
+  },
+  {
+    "path": "FY2026.facilities.short.commitment",
+    "status": "MATCH",
+    "value": 1,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 69,
+      "line": "364-day committed facility",
+      "note": "5"
+    },
+    "basis": "Contract commitment amount; optional increases excluded"
+  },
+  {
+    "path": "FY2026.facilities.short.drawn",
+    "status": "MATCH",
+    "value": 0,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 69,
+      "line": "Committed facilities drawn",
+      "note": "5"
+    },
+    "basis": "Explicit no amounts outstanding under committed facilities"
+  },
+  {
+    "path": "FY2026.facilities.short.expiry",
+    "status": "MATCH",
+    "value": "2027-03-05",
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 69,
+      "line": "364-day facility scheduled expiry",
+      "note": "5"
+    },
+    "basis": "Exact contractual expiry date in credit-facility note"
+  },
+  {
+    "path": "FY2026.facilities.commercialPaperCapacity",
+    "status": "MATCH",
+    "value": 3,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 46,
+      "line": "Commercial paper program capacity"
+    },
+    "basis": "Commercial-paper program capacity"
+  },
+  {
+    "path": "FY2026.facilities.commercialPaperDrawn",
+    "status": "MATCH",
+    "value": 0,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 46,
+      "line": "Commercial paper outstanding"
+    },
+    "basis": "Explicit no borrowings outstanding under commercial-paper program"
+  },
+  {
+    "path": "FY2026.debtMaturities.FY2027",
+    "status": "MATCH",
+    "value": 2,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 70,
+      "line": "Principal due FY2027",
+      "note": "6"
+    },
+    "rows": [
+      {
+        "contractualDate": "2026-11-01",
+        "page": 70
+      },
+      {
+        "contractualDate": "2027-03-27",
+        "page": 70
+      }
+    ]
+  },
+  {
+    "path": "FY2026.debtMaturities.FY2030",
+    "status": "MATCH",
+    "value": 1.5,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 70,
+      "line": "Principal due FY2030",
+      "note": "6"
+    },
+    "rows": [
+      {
+        "contractualDate": "2030-03-27",
+        "page": 70
+      }
+    ]
+  },
+  {
+    "path": "FY2026.debtMaturities.FY2040",
+    "status": "MATCH",
+    "value": 1,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 70,
+      "line": "Principal due FY2040",
+      "note": "6"
+    },
+    "rows": [
+      {
+        "contractualDate": "2040-03-27",
+        "page": 70
+      }
+    ]
+  },
+  {
+    "path": "FY2026.debtMaturities.FY2043",
+    "status": "MATCH",
+    "value": 0.5,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 70,
+      "line": "Principal due FY2043",
+      "note": "6"
+    },
+    "rows": [
+      {
+        "contractualDate": "2043-05-01",
+        "page": 70
+      }
+    ]
+  },
+  {
+    "path": "FY2026.debtMaturities.FY2046",
+    "status": "MATCH",
+    "value": 1,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 70,
+      "line": "Principal due FY2046",
+      "note": "6"
+    },
+    "rows": [
+      {
+        "contractualDate": "2045-11-01",
+        "page": 70
+      }
+    ]
+  },
+  {
+    "path": "FY2026.debtMaturities.FY2047",
+    "status": "MATCH",
+    "value": 0.5,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 70,
+      "line": "Principal due FY2047",
+      "note": "6"
+    },
+    "rows": [
+      {
+        "contractualDate": "2046-11-01",
+        "page": 70
+      }
+    ]
+  },
+  {
+    "path": "FY2026.debtMaturities.FY2050",
+    "status": "MATCH",
+    "value": 1.5,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 70,
+      "line": "Principal due FY2050",
+      "note": "6"
+    },
+    "rows": [
+      {
+        "contractualDate": "2050-03-27",
+        "page": 70
+      }
+    ]
+  },
+  {
+    "path": "FY2027 Q1.facilities.commitment",
+    "status": "MATCH",
+    "value": 3,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 34,
+      "line": "Facilities unchanged from FY2026"
+    },
+    "basis": "Unchanged facilities, tied to FY2026 $2B+$1B contracts"
+  },
+  {
+    "path": "FY2027 Q1.facilities.drawn",
+    "status": "MATCH",
+    "value": 0,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 34,
+      "line": "Committed facilities drawn"
+    },
+    "basis": "Explicit no amounts outstanding"
+  },
+  {
+    "path": "FY2027 Q1.facilities.commercialPaperCapacity",
+    "status": "MATCH",
+    "value": 3,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 34,
+      "line": "Commercial paper program capacity"
+    },
+    "basis": "Program size"
+  },
+  {
+    "path": "FY2027 Q1.facilities.commercialPaperDrawn",
+    "status": "MATCH",
+    "value": 0,
+    "source": {
+      "filing": "Q",
+      "period": "FY2027 Q1",
+      "printedPage": 34,
+      "line": "Commercial paper outstanding"
+    },
+    "basis": "Explicit no commercial-paper borrowings"
+  },
+  {
+    "path": "adjustments.tariffBenefitFY2026",
+    "status": "MATCH",
+    "value": 0.986,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 61,
+      "line": "IEEPA tariff-recovery benefit in COGS",
+      "note": "1"
+    },
+    "basis": "Exact disclosed tariff amount in Note 1"
+  },
+  {
+    "path": "adjustments.tariffReceivableFY2026",
+    "status": "MATCH",
+    "value": 0.684,
+    "source": {
+      "filing": "C",
+      "period": "FY2026",
+      "printedPage": 61,
+      "line": "Outstanding IEEPA tariff receivable included in AR",
+      "note": "1"
+    },
+    "basis": "Exact disclosed tariff amount in Note 1"
+  }
+]
