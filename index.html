@@ -5780,8 +5780,10 @@ const GLOSSARY = Object.freeze({
  .finance-help-trigger{position:absolute;z-index:2;display:inline-flex;align-items:center;justify-content:center;width:15px;height:15px;min-width:15px;min-height:15px;padding:0;border:1px solid var(--muted);border-radius:50%;background:var(--paper);color:var(--muted);font:500 10px/1 'IBM Plex Sans',sans-serif;cursor:pointer;letter-spacing:0;box-shadow:none;flex-shrink:0}
  #live .live-tag{display:inline-block;position:relative;padding-right:19px;white-space:nowrap;flex-shrink:0}
  @media(max-width:720px){#live>div:first-child{flex-wrap:wrap;row-gap:2px}#live>div:first-child .live-label{white-space:nowrap;flex-basis:100%}}
- .controls select{-webkit-appearance:none;appearance:none;padding-right:34px;background-image:url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='12'%20height='8'%20viewBox='0%200%2012%208'%3E%3Cpath%20d='M1%201.5%206%206.5%2011%201.5'%20fill='none'%20stroke='%235b6e7e'%20stroke-width='1.5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-size:12px 8px;background-position:right 12px center}
+ select{-webkit-appearance:none;appearance:none;padding-right:34px;background-image:url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='12'%20height='8'%20viewBox='0%200%2012%208'%3E%3Cpath%20d='M1%201.5%206%206.5%2011%201.5'%20fill='none'%20stroke='%235b6e7e'%20stroke-width='1.5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-size:12px 8px;background-position:right 12px center}
  .chart-legend li:has(>.finance-help-trigger){position:relative}.chart-legend li:has(>.finance-help-trigger):not(:last-child){padding-right:4px}
+ .chart-legend li:last-child:has(>.finance-help-trigger){padding-right:17px}
+ .scale-labels>span:last-child:has(>.finance-help-trigger){position:relative;padding-right:19px;white-space:nowrap}
  .finance-help-trigger.help-dark{color:#d3dfe5;border-color:#c4cfd6;background:var(--ink)}
  .finance-help-trigger:hover,.finance-help-trigger:focus-visible,.finance-help-trigger[aria-expanded=true]{color:white;background:var(--accent);border-color:var(--accent)}
  .finance-help-trigger:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
